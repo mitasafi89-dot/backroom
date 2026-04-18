@@ -34,8 +34,8 @@ object NetworkConfig {
     // Update PROD_DOMAIN to your actual domain
     // ============================================
 
-    private const val PROD_DOMAIN = "yourdomain.com"  // TODO: Update this!
-    private const val PROD_REST_API_URL = "https://api.$PROD_DOMAIN/api/v1"
+    private const val PROD_DOMAIN = "backroom.llc"
+    private const val PROD_REST_API_URL = "https://$PROD_DOMAIN/api/v1"
     private const val PROD_WS_SIGNALING_URL = "wss://ws.$PROD_DOMAIN/ws"
     private const val PROD_TURN_URL = "turn:turn.$PROD_DOMAIN:3478"
 
