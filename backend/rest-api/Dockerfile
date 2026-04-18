@@ -1,24 +1,28 @@
+FROM node:20-alpine AS builder
+
+WORKDIR /app
+
+# Install ALL dependencies (including dev for building)
+COPY backend/rest-api/package*.json ./
+RUN npm ci
+
+# Copy source and build
+COPY backend/rest-api/ .
+RUN npm run build
+
+# --- Production stage ---
 FROM node:20-alpine
 
 WORKDIR /app
 
-# Install dependencies
-COPY backend/rest-api/package*.json ./
-RUN npm ci --only=production
+COPY --from=builder /app/package*.json ./
+RUN npm ci --omit=dev
 
-# Copy source
-COPY backend/rest-api/ .
-
-# Build if needed (for TypeScript)
-RUN npm run build 2>/dev/null || true
+COPY --from=builder /app/dist ./dist
 
 # Expose port
 EXPOSE 8080
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD wget --no-verbose --tries=1 --spider http://localhost:8080/health || exit 1
-
 # Start
-CMD ["npm", "run", "start:prod"]
+CMD ["node", "dist/main"]
 
