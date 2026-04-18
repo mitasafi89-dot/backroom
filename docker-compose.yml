@@ -1,0 +1,155 @@
+# Backroom — Development Docker Compose
+# Start with: docker-compose up -d
+# Requires: Docker, Docker Compose
+
+
+services:
+  # ============================================
+  # POSTGRES — Primary database
+  # ============================================
+  postgres:
+    image: postgres:15-alpine
+    container_name: backroom-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-backroom}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-backroom_dev_password}
+      POSTGRES_DB: ${POSTGRES_DB:-backroom}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/migrations/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-backroom} -d ${POSTGRES_DB:-backroom}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ============================================
+  # REDIS — Cache, queues, presence, pub/sub
+  # ============================================
+  # REDIS — Cache, queues, presence, pub/sub
+  # ============================================
+  redis:
+    image: redis:7-alpine
+    container_name: backroom-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # ============================================
+  # COTURN — TURN/STUN server for WebRTC
+  # ============================================
+  coturn:
+    image: coturn/coturn:latest
+    container_name: backroom-coturn
+    restart: unless-stopped
+    ports:
+      # STUN/TURN
+      - "3478:3478"
+      - "3478:3478/udp"
+      # Alternative port
+      - "3479:3479"
+      - "3479:3479/udp"
+      # TURNS (TLS)
+      - "5349:5349"
+      - "5349:5349/udp"
+      # Relay ports (UDP range for media)
+      - "49152-49252:49152-49252/udp"
+    volumes:
+      - ./backend/coturn/turnserver.conf:/etc/coturn/turnserver.conf:ro
+    command: ["-c", "/etc/coturn/turnserver.conf"]
+    environment:
+      - DETECT_EXTERNAL_IP=yes
+      - DETECT_RELAY_IP=yes
+    healthcheck:
+      test: ["CMD", "turnadmin", "-l"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ============================================
+  # REST API — NestJS backend
+  # ============================================
+  rest-api:
+    build:
+      context: ./backend/rest-api
+      dockerfile: Dockerfile
+    container_name: backroom-api
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    environment:
+      - NODE_ENV=development
+      - PORT=8080
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_USER=${POSTGRES_USER:-backroom}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-backroom_dev_password}
+      - POSTGRES_DB=${POSTGRES_DB:-backroom}
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - JWT_SECRET=${JWT_SECRET:-dev_jwt_secret_change_in_production}
+      - TURN_URL=turn:coturn:3478
+      - STUN_URL=stun:coturn:3478
+      - TURN_LONG_TERM_SECRET=${TURN_LONG_TERM_SECRET:-CHANGE_ME_IN_PRODUCTION_USE_STRONG_SECRET}
+      - MPESA_ENVIRONMENT=${MPESA_ENVIRONMENT:-sandbox}
+      - MPESA_CONSUMER_KEY=${MPESA_CONSUMER_KEY:-}
+      - MPESA_CONSUMER_SECRET=${MPESA_CONSUMER_SECRET:-}
+      - MPESA_SHORTCODE=${MPESA_SHORTCODE:-}
+      - MPESA_PASSKEY=${MPESA_PASSKEY:-}
+      - MPESA_CALLBACK_URL=${MPESA_CALLBACK_URL:-}
+    ports:
+      - "8080:8080"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # ============================================
+  # WS-SIGNALING — Go WebSocket server
+  # ============================================
+  ws-signaling:
+    build:
+      context: ./backend/ws-signaling
+      dockerfile: Dockerfile
+    container_name: backroom-ws-signaling
+    restart: unless-stopped
+    depends_on:
+      - coturn
+      - redis
+    environment:
+      - WS_PORT=8443
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=${JWT_SECRET:-dev_jwt_secret_backroom_2026_change_in_production}
+      # Use external IP for TURN so phones can connect (not Docker internal hostname)
+      - TURN_URL=${TURN_URL:-turn:192.168.1.160:3478}
+      - TURN_SECRET=${TURN_SECRET:-backroom_turn_secret}
+    ports:
+      - "8443:8443"
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8443/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  default:
+    name: backroom-network
+

@@ -1,0 +1,2165 @@
+--------- beginning of main
+02-08 04:25:46.246  9903  9948 D CallManager: 📨 [MessageCollector] Received: CallEnded
+02-08 04:25:46.246  9903  9948 D CallManager: 📩 Processing message: CallEnded
+02-08 04:25:46.247  9903  9948 D CallManager: 📞 Call ended: ac865adc-d566-4dcc-bb05-69bb9dce65f1, reason: ended
+02-08 04:25:46.250  9903  9948 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:25:46.250  9903  9948 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:25:46.251  9903  9948 D WebRTCManager:    Final state:
+02-08 04:25:46.251  9903  9948 D WebRTCManager:    - Local audio track: true, enabled=true
+02-08 04:25:46.251  9903  9948 D WebRTCManager:    - Remote audio track: true, enabled=true
+02-08 04:25:46.251  9903  9948 D WebRTCManager:    - Connection state: CONNECTED
+02-08 04:25:46.263  9903  9948 D WebRTCManager: Audio configuration restored
+02-08 04:25:46.442  9903 10558 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:25:46.442  9903 10558 D WebRTCManager: 🎤 AUDIO RECORD STOPPED - Microphone capture ended!
+02-08 04:25:46.442  9903 10558 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:25:46.449  9903 10504 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:25:46.450  9903 10504 D WebRTCManager: 🔗 ICE connection state: DISCONNECTED
+02-08 04:25:46.450  9903 10504 W WebRTCManager:    ⚠️ ICE DISCONNECTED
+02-08 04:25:46.450  9903 10504 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:25:46.452  9903 10504 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:25:46.452  9903 10504 D WebRTCManager: 🔗 ICE connection state: CLOSED
+02-08 04:25:46.452  9903 10504 D WebRTCManager:    🚫 ICE CLOSED
+02-08 04:25:46.452  9903 10504 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:25:46.453  9903 10504 D WebRTCManager: Signaling state: CLOSED
+02-08 04:25:46.492  9903 10503 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:25:46.492  9903 10503 D WebRTCManager: 🔇 AUDIO TRACK STOPPED - Remote audio playback ended!
+02-08 04:25:46.492  9903 10503 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:25:46.499  9903  9948 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:12.303  9903  9903 D CallManager: Submitting share: Confession, Light, 10 min
+02-08 04:26:12.310  9903  9948 D CallManager: 📨 [MessageCollector] Received: ShareSubmitted
+02-08 04:26:12.311  9903  9948 D CallManager: 📩 Processing message: ShareSubmitted
+02-08 04:26:12.311  9903  9948 D CallManager: 📝 Share submitted: bebeb69c-15f1-4b67-9def-fbb53b360047, status: queued
+02-08 04:26:13.788  9903  9949 D CallManager: 📨 [MessageCollector] Received: MatchMade
+02-08 04:26:13.788  9903  9949 D CallManager: 📩 Processing message: MatchMade
+02-08 04:26:13.789  9903  9949 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.789  9903  9949 D CallManager: 🎯 MATCH MADE RECEIVED!
+02-08 04:26:13.789  9903  9949 D CallManager:    Thread: DefaultDispatcher-worker-3
+02-08 04:26:13.789  9903  9949 D CallManager:    Call ID: b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:13.790  9903  9949 D CallManager:    Role: sharer
+02-08 04:26:13.790  9903  9949 D CallManager:    Duration: 10 min
+02-08 04:26:13.790  9903  9949 D CallManager:    Topic: Confession
+02-08 04:26:13.790  9903  9949 D CallManager:    Intent: you
+02-08 04:26:13.790  9903  9949 D CallManager:    TURN servers: 2
+02-08 04:26:13.790  9903  9949 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.790  9903  9949 D CallManager:    Step 1: Setting currentRole to 'sharer'
+02-08 04:26:13.791  9903  9949 D CallManager:    ✓ currentRole is now: sharer
+02-08 04:26:13.791  9903  9949 D CallManager:    Step 2: Setting matchConsumed to false
+02-08 04:26:13.792  9903  9949 D CallManager:    Step 3: Setting currentCallId to 'b00c71fc-0a66-42b8-8443-7399ce6b08c5'
+02-08 04:26:13.792  9903  9949 D CallManager:    Step 4: Clearing pendingShareId and incomingPreview
+02-08 04:26:13.792  9903  9949 D CallManager:    Step 5: Updating call parameters
+02-08 04:26:13.793  9903  9949 D CallManager:    Step 6: Setting matchInfo (THIS TRIGGERS NAVIGATION)
+02-08 04:26:13.793  9903  9949 D CallManager:    ✓ matchInfo is now set
+02-08 04:26:13.793  9903  9949 D CallManager: 📞 All state updated, now initializing WebRTC...
+02-08 04:26:13.793  9903  9949 D CallManager:    TURN: [turn:localhost:3478]
+02-08 04:26:13.793  9903  9949 D CallManager:    TURN: [stun:stun.l.google.com:19302]
+02-08 04:26:13.793  9903  9949 D CallManager: 🎬 Step 7: Calling initializeWebRTC(isInitiator=true)
+02-08 04:26:13.794  9903  9949 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.794  9903  9949 D CallManager: 🎬 initializeWebRTC CALLED
+02-08 04:26:13.794  9903  9949 D CallManager:    Thread: DefaultDispatcher-worker-3
+02-08 04:26:13.794  9903  9949 D CallManager:    isInitiator: true
+02-08 04:26:13.794  9903  9949 D CallManager:    turnServers: 2
+02-08 04:26:13.794  9903  9949 D CallManager:    callId: b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:13.794  9903  9949 D CallManager:    isWebRTCInitializing: false
+02-08 04:26:13.794  9903  9949 D CallManager:    lastInitializedCallId: null
+02-08 04:26:13.794  9903  9949 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.794  9903  9949 D CallManager:    Set isWebRTCInitializing = true
+02-08 04:26:13.794  9903  9949 D CallManager:    Cancelled previous WebRTC job
+02-08 04:26:13.794  9903  9949 D CallManager:    Launching coroutine on Main thread...
+02-08 04:26:13.795  9903  9949 D CallManager:    ✓ initializeWebRTC launched
+02-08 04:26:13.816  9903  9903 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.816  9903  9903 D CallManager: 🔒 tryConsumeMatch() CALLED
+02-08 04:26:13.816  9903  9903 D CallManager:    Thread: main
+02-08 04:26:13.816  9903  9903 D CallManager:    Current _matchConsumed.value: false
+02-08 04:26:13.816  9903  9903 D CallManager:    Current matchInfo: b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:13.816  9903  9903 D CallManager:    [INSIDE LOCK] Checking consumed state...
+02-08 04:26:13.816  9903  9903 D CallManager:    ✓ Match consumed successfully - returning true
+02-08 04:26:13.816  9903  9903 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.829  9903  9903 D CallManager: 🔧 initializeWebRTC - NOW ON MAIN THREAD
+02-08 04:26:13.829  9903  9903 D CallManager:    Thread: main
+02-08 04:26:13.829  9903  9903 D CallManager: 🧹 Disposing existing WebRTC manager
+02-08 04:26:13.829  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.829  9903  9903 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:26:13.829  9903  9903 D WebRTCManager:    Final state:
+02-08 04:26:13.829  9903  9903 D WebRTCManager:    - Local audio track: false, enabled=null
+02-08 04:26:13.829  9903  9903 D WebRTCManager:    - Remote audio track: false, enabled=null
+02-08 04:26:13.829  9903  9903 D WebRTCManager:    - Connection state: IDLE
+02-08 04:26:13.836  9903  9903 D WebRTCManager: Audio configuration restored
+02-08 04:26:13.836  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.841  9903  9903 D WebRTCManager: WebRTCManager disposed
+02-08 04:26:13.841  9903  9903 D CallManager: 🆕 Creating new WebRTCManager...
+02-08 04:26:13.841  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.841  9903  9903 D WebRTCManager: 🆕 WebRTCManager CONSTRUCTOR CALLED
+02-08 04:26:13.841  9903  9903 D WebRTCManager:    Thread: main
+02-08 04:26:13.841  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.841  9903  9903 D WebRTCManager: PeerConnectionFactory already initialized
+02-08 04:26:13.842  9903  9903 D WebRTCManager: 🏭 initializePeerConnectionFactory starting...
+02-08 04:26:13.842  9903  9903 D WebRTCManager:    ⚠️ Voice anonymization TEMPORARILY DISABLED for debugging
+02-08 04:26:13.849  9903  9903 D WebRTCManager:    ✅ PeerConnectionFactory created (standard audio, no voice processing)
+02-08 04:26:13.849  9903  9903 D WebRTCManager:    ✓ WebRTCManager constructor completed
+02-08 04:26:13.851  9903  9903 D CallManager: 🔌 Creating peer connection...
+02-08 04:26:13.851  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.851  9903  9903 D WebRTCManager: 🔌 createPeerConnection CALLED
+02-08 04:26:13.851  9903  9903 D WebRTCManager:    isInitiator: true
+02-08 04:26:13.851  9903  9903 D WebRTCManager:    Role: SHARER (will create offer)
+02-08 04:26:13.851  9903  9903 D WebRTCManager:    TURN servers: 2
+02-08 04:26:13.851  9903  9903 D WebRTCManager:    - [turn:localhost:3478]
+02-08 04:26:13.851  9903  9903 D WebRTCManager:    - [stun:stun.l.google.com:19302]
+02-08 04:26:13.851  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.851  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:13.851  9903  9903 D WebRTCManager: 🔊 configureAudioForCall CALLED
+02-08 04:26:13.853  9903  9903 D WebRTCManager:    Saved audio mode: 0, speakerphone: false
+02-08 04:26:13.854  9903  9903 D WebRTCManager:    Set mode to MODE_IN_COMMUNICATION
+02-08 04:26:13.986  9903  9903 D WebRTCManager:    Set speakerphone ON for hands-free calling
+02-08 04:26:13.993  9903  9903 D WebRTCManager:    Set VOICE_CALL volume to 9 / 11
+02-08 04:26:14.023  9903  9903 D WebRTCManager:    Set MUSIC volume to 13 / 15 (fallback)
+02-08 04:26:14.026  9903  9903 D WebRTCManager:    Audio focus request result: 1 (1=granted)
+02-08 04:26:14.026  9903  9903 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:26:14.026  9903  9903 D WebRTCManager:    FINAL AUDIO STATE:
+02-08 04:26:14.220  9903  9903 D WebRTCManager:    - Mode: 3 (3=MODE_IN_COMMUNICATION)
+02-08 04:26:14.222  9903  9903 D WebRTCManager:    - Speakerphone: true
+02-08 04:26:14.224  9903  9903 D WebRTCManager:    - Microphone muted: false
+02-08 04:26:14.225  9903  9903 D WebRTCManager:    - Music active: false
+02-08 04:26:14.263  9903  9903 D WebRTCManager:    - Voice call volume: 11
+02-08 04:26:14.263  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.264  9903  9903 D WebRTCManager:    ICE servers built: 3
+02-08 04:26:14.268  9903  9903 D WebRTCManager: ✅ PeerConnection created
+02-08 04:26:14.268  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.268  9903  9903 D WebRTCManager: 🎤 createLocalAudioTrack CALLED
+02-08 04:26:14.268  9903  9903 D WebRTCManager:    Thread: main
+02-08 04:26:14.268  9903  9903 D WebRTCManager:    peerConnectionFactory: true
+02-08 04:26:14.269  9903  9903 D WebRTCManager:    peerConnection: true
+02-08 04:26:14.269  9903  9903 D WebRTCManager:    ✓ Audio constraints created
+02-08 04:26:14.269  9903  9903 D WebRTCManager:    audioSource created: true
+02-08 04:26:14.271  9903  9903 D WebRTCManager:    localAudioTrack created: true
+02-08 04:26:14.271  9903  9903 D WebRTCManager:    localAudioTrack enabled: true
+02-08 04:26:14.272  9903 11058 D WebRTCManager: Renegotiation needed
+02-08 04:26:14.273  9903  9903 D WebRTCManager:    Track added to peerConnection, sender: true
+02-08 04:26:14.273  9903  9903 D WebRTCManager:    Sender track: audio
+02-08 04:26:14.273  9903  9903 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:26:14.273  9903  9903 D WebRTCManager:    TRANSCEIVERS AFTER ADDING LOCAL TRACK:
+02-08 04:26:14.276  9903  9903 D WebRTCManager:    Transceiver[0]:
+02-08 04:26:14.276  9903  9903 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:26:14.276  9903  9903 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:26:14.276  9903  9903 D WebRTCManager:      - currentDirection: null
+02-08 04:26:14.277  9903  9903 D WebRTCManager:      - mid: null
+02-08 04:26:14.277  9903  9903 D WebRTCManager:      - sender.track: audio
+02-08 04:26:14.277  9903  9903 D WebRTCManager:      - receiver.track: audio
+02-08 04:26:14.277  9903  9903 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:26:14.277  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.277  9903  9903 D WebRTCManager: ✅ Local audio track created - THIS DEVICE CAN NOW TRANSMIT AUDIO
+02-08 04:26:14.277  9903  9903 D WebRTCManager: 🔄 State set to CONNECTING
+02-08 04:26:14.278  9903  9903 D WebRTCManager: 📤 Creating offer (we are initiator)
+02-08 04:26:14.279  9903  9903 D WebRTCManager: PeerConnection created (initiator: true)
+02-08 04:26:14.280  9903  9903 D CallManager: ✅ WebRTC initialized successfully, isInitiator: true
+02-08 04:26:14.281  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.281  9903 11058 D WebRTCManager: 📤 OFFER CREATED!
+02-08 04:26:14.281  9903 11058 D WebRTCManager:    type: OFFER
+02-08 04:26:14.281  9903 11058 D WebRTCManager:    description length: 1173
+02-08 04:26:14.282  9903 11058 D WebRTCManager:    hasAudio: true
+02-08 04:26:14.282  9903 11058 D WebRTCManager:    audioDirection: sendrecv
+02-08 04:26:14.282  9903 11058 D WebRTCManager:    Transceivers at offer creation:
+02-08 04:26:14.283  9903 11058 D WebRTCManager:      [0] type=MEDIA_TYPE_AUDIO, dir=SEND_RECV, mid=null
+02-08 04:26:14.283  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.287  9903 11058 D WebRTCManager: Signaling state: HAVE_LOCAL_OFFER
+02-08 04:26:14.291  9903 11058 D WebRTCManager: Local description set
+02-08 04:26:14.325  9903 11058 D WebRTCManager: ICE gathering state: GATHERING
+02-08 04:26:14.349  9903 11058 D WebRTCManager: Local ICE candidate: 0
+02-08 04:26:14.350  9903 11058 D WebRTCManager: Local ICE candidate: 0
+02-08 04:26:14.351  9903 11058 D WebRTCManager: Local ICE candidate: 0
+02-08 04:26:14.408  9903 11058 D WebRTCManager: Local ICE candidate: 0
+02-08 04:26:14.429  9903  9903 D CallManager: 🔊 WebRTC state changed: CONNECTING
+02-08 04:26:14.451  9903  9949 D CallManager: 📤 Sending OFFER for call b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:14.453  9903 11058 D WebRTCManager: Local ICE candidate: 0
+02-08 04:26:14.453  9903 11058 D WebRTCManager: Local ICE candidate: 0
+02-08 04:26:14.453  9903 11058 D WebRTCManager: Local ICE candidate: 0
+02-08 04:26:14.455  9903  9949 D CallManager: 📤 Sending ICE candidate for call b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:14.456  9903  9949 D CallManager: 📤 Sending ICE candidate for call b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:14.458  9903  9949 D CallManager: 📤 Sending ICE candidate for call b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:14.459  9903  9949 D CallManager: 📤 Sending ICE candidate for call b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:14.462  9903  9949 D CallManager: 📤 Sending ICE candidate for call b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:14.464  9903  9949 D CallManager: 📤 Sending ICE candidate for call b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:14.467  9903  9949 D CallManager: 📤 Sending ICE candidate for call b00c71fc-0a66-42b8-8443-7399ce6b08c5
+02-08 04:26:14.588  9903  9949 D CallManager: 📨 [MessageCollector] Received: WebRtcAnswer
+02-08 04:26:14.588  9903  9949 D CallManager: 📩 Processing message: WebRtcAnswer
+02-08 04:26:14.589  9903  9949 D CallManager: 📥 Received WebRTC ANSWER, sdp length: 1135
+02-08 04:26:14.589  9903  9949 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.589  9903  9949 D WebRTCManager: 📥 setRemoteDescription CALLED
+02-08 04:26:14.589  9903  9949 D WebRTCManager:    Thread: DefaultDispatcher-worker-3
+02-08 04:26:14.589  9903  9949 D WebRTCManager:    isAnswer: true
+02-08 04:26:14.589  9903  9949 D WebRTCManager:    sdp.type: ANSWER
+02-08 04:26:14.589  9903  9949 D WebRTCManager:    sdp.description length: 1135
+02-08 04:26:14.589  9903  9949 D WebRTCManager:    hasRemoteDescriptionBeenSet: false
+02-08 04:26:14.590  9903  9949 D WebRTCManager:    peerConnection: true
+02-08 04:26:14.590  9903  9949 D WebRTCManager:    ✓ Set hasRemoteDescriptionBeenSet = true
+02-08 04:26:14.591  9903 11058 D WebRTCManager: Signaling state: STABLE
+02-08 04:26:14.667  9903 11131 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.667  9903 11131 D WebRTCManager: 🔊 AUDIO TRACK STARTED - Remote audio playback beginning!
+02-08 04:26:14.667  9903 11131 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.668  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.668  9903 11058 D WebRTCManager: 🔗 ICE connection state: CHECKING
+02-08 04:26:14.668  9903 11058 D WebRTCManager:    🔍 ICE checking - attempting to connect...
+02-08 04:26:14.668  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.670  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.670  9903 11058 D WebRTCManager: 🔊 onTrack - TRANSCEIVER RECEIVED!
+02-08 04:26:14.670  9903 11058 D WebRTCManager:    Thread: signaling_threa - 11058
+02-08 04:26:14.670  9903 11058 D WebRTCManager:    transceiver: true
+02-08 04:26:14.670  9903 11058 D WebRTCManager:    mediaType: MEDIA_TYPE_AUDIO
+02-08 04:26:14.670  9903 11058 D WebRTCManager:    direction: SEND_RECV
+02-08 04:26:14.670  9903 11058 D WebRTCManager:    mid: 0
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    currentDirection: SEND_RECV
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    isStopped: false
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    This is an AUDIO transceiver
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    Receiver track: kind=audio, id=76e7d455-a8c1-4308-acb1-4696527a7c4a, enabled=true
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    ✅ Remote audio track from transceiver ENABLED!
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    Track state: LIVE
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    Track enabled: true
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    Sender track (local): kind=audio, id=audio0, enabled=true
+02-08 04:26:14.671  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.671  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.671  9903 11058 D WebRTCManager: 🔊 onAddTrack - REMOTE TRACK ADDED!
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    Thread: signaling_threa - 11058
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    receiver: true
+02-08 04:26:14.671  9903 11058 D WebRTCManager:    receiver.track: org.webrtc.AudioTrack@1199481
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    receiver.track kind: audio
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    receiver.track id: 76e7d455-a8c1-4308-acb1-4696527a7c4a
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    receiver.track enabled: true
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    streams count: 1
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    Processing track: kind=audio, id=76e7d455-a8c1-4308-acb1-4696527a7c4a
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    ✅ Remote audio track ENABLED for playback!
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    remoteAudioTrack.id: 76e7d455-a8c1-4308-acb1-4696527a7c4a
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    remoteAudioTrack.enabled: true
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    remoteAudioTrack.state: LIVE
+02-08 04:26:14.672  9903 11058 D WebRTCManager:    Current audio state:
+02-08 04:26:14.674  9903 11058 D WebRTCManager:    - Mode: 3
+02-08 04:26:14.677  9903 11058 D WebRTCManager:    - Speakerphone: true
+02-08 04:26:14.685  9903 11058 D WebRTCManager:    - Voice call volume: 11
+02-08 04:26:14.685  9903 11058 D WebRTCManager:    Stream ID: stream0
+02-08 04:26:14.685  9903 11058 D WebRTCManager:    Audio tracks in stream: 1
+02-08 04:26:14.685  9903 11058 D WebRTCManager:    Audio track [0]: id=76e7d455-a8c1-4308-acb1-4696527a7c4a, enabled=true
+02-08 04:26:14.685  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.685  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.686  9903 11058 D WebRTCManager: 📥 onAddStream - REMOTE STREAM ADDED!
+02-08 04:26:14.686  9903 11058 D WebRTCManager:    stream: true
+02-08 04:26:14.686  9903 11058 D WebRTCManager:    stream.id: stream0
+02-08 04:26:14.686  9903 11058 D WebRTCManager:    audioTracks count: 1
+02-08 04:26:14.686  9903 11058 D WebRTCManager:    videoTracks count: 0
+02-08 04:26:14.686  9903 11058 D WebRTCManager:    Audio track[0]: id=76e7d455-a8c1-4308-acb1-4696527a7c4a, enabled=true, state=LIVE
+02-08 04:26:14.686  9903 11058 D WebRTCManager:    Audio track[0] ENABLED: true
+02-08 04:26:14.686  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.686  9903 11058 D WebRTCManager:    ✅ Remote description set successfully!
+02-08 04:26:14.686  9903 11058 D WebRTCManager:    isAnswer: true
+02-08 04:26:14.686  9903  9949 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.687  9903  9949 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:26:14.687  9903  9949 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:26:14.687  9903  9949 D CallManager: 📥 Received ICE candidate: candidate:4276027863 1 udp 2122260223 192.168.1.18...
+02-08 04:26:14.687  9903  9949 D WebRTCManager: Remote ICE candidate added
+02-08 04:26:14.698  9903  9949 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:26:14.698  9903  9949 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:26:14.698  9903  9949 D CallManager: 📥 Received ICE candidate: candidate:3944507980 1 udp 2121998079 127.0.0.1 34...
+02-08 04:26:14.699  9903  9949 D WebRTCManager: Remote ICE candidate added
+02-08 04:26:14.700  9903  9949 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:26:14.700  9903  9949 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:26:14.700  9903  9949 D CallManager: 📥 Received ICE candidate: candidate:4197480644 1 udp 2122071295 ::1 59440 ty...
+02-08 04:26:14.701  9903  9949 D WebRTCManager: Remote ICE candidate added
+02-08 04:26:14.702  9903  9949 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:26:14.702  9903  9949 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:26:14.702  9903  9949 D CallManager: 📥 Received ICE candidate: candidate:368583019 1 udp 1686052607 154.159.237.6...
+02-08 04:26:14.703  9903  9949 D WebRTCManager: Remote ICE candidate added
+02-08 04:26:14.743  9903  9952 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:26:14.744  9903  9952 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:26:14.744  9903  9952 D CallManager: 📥 Received ICE candidate: candidate:522501087 1 tcp 1518214911 10.43.174.172...
+02-08 04:26:14.744  9903  9952 D WebRTCManager: Remote ICE candidate added
+02-08 04:26:14.791  9903 10511 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:26:14.792  9903 10511 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:26:14.792  9903 10511 D CallManager: 📥 Received ICE candidate: candidate:1924610219 1 tcp 1518149375 10.0.132.80 ...
+02-08 04:26:14.793  9903 10511 D WebRTCManager: Remote ICE candidate added
+02-08 04:26:14.794  9903 10511 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:26:14.795  9903 10511 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:26:14.795  9903 10511 D CallManager: 📥 Received ICE candidate: candidate:364297944 1 tcp 1518018303 127.0.0.1 372...
+02-08 04:26:14.796  9903 10511 D WebRTCManager: Remote ICE candidate added
+02-08 04:26:14.796  9903 10511 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:26:14.797  9903 10511 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:26:14.797  9903 10511 D CallManager: 📥 Received ICE candidate: candidate:77245520 1 tcp 1518091519 ::1 59433 typ ...
+02-08 04:26:14.797  9903 10511 D WebRTCManager: Remote ICE candidate added
+02-08 04:26:14.910  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:14.910  9903 11058 D WebRTCManager: 🔗 ICE connection state: CONNECTED
+02-08 04:26:14.910  9903 11058 D WebRTCManager:    ✅ ICE CONNECTED - WebRTC call established!
+02-08 04:26:14.911  9903 11058 D WebRTCManager:    🔊 Re-applying audio configuration (WebRTC resets it)...
+02-08 04:26:14.913  9903 11058 D WebRTCManager:    forceAudioModeForCall: current mode = 3
+02-08 04:26:14.915  9903 11058 D WebRTCManager:    ✅ Audio mode confirmed: MODE_IN_COMMUNICATION
+02-08 04:26:14.915  9903 11058 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:26:14.915  9903 11058 D WebRTCManager:    AUDIO VERIFICATION ON ICE CONNECTED:
+02-08 04:26:14.915  9903 11058 D WebRTCManager:    Local audio track: true
+02-08 04:26:14.915  9903 11058 D WebRTCManager:    Local audio enabled: true
+02-08 04:26:14.916  9903 11058 D WebRTCManager:    Remote audio track: true
+02-08 04:26:14.916  9903 11058 D WebRTCManager:    Remote audio enabled: true
+02-08 04:26:14.916  9903 11058 D WebRTCManager:    Transceiver[0]:
+02-08 04:26:14.917  9903 11058 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:26:14.917  9903 11058 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:26:14.917  9903 11058 D WebRTCManager:      - currentDirection: SEND_RECV
+02-08 04:26:14.917  9903 11058 D WebRTCManager:      - mid: 0
+02-08 04:26:14.918  9903 11058 D WebRTCManager:      - Receiver track: kind=audio, enabled=true, state=LIVE
+02-08 04:26:14.918  9903 11058 D WebRTCManager:      - Sender track: kind=audio, enabled=true, state=LIVE
+02-08 04:26:14.918  9903 11058 D WebRTCManager:    AudioManager state AFTER force:
+02-08 04:26:14.919  9903  9903 D CallManager: 🔊 WebRTC state changed: CONNECTED
+02-08 04:26:14.919  9903  9903 D CallManager: 🔊 WebRTC CONNECTED - verifying audio setup...
+02-08 04:26:14.919  9903 11058 D WebRTCManager:    - Mode: 3 (3=IN_COMMUNICATION)
+02-08 04:26:14.921  9903 11058 D WebRTCManager:    - Speakerphone: true
+02-08 04:26:14.923  9903 11058 D WebRTCManager:    - Mic muted: false
+02-08 04:26:14.924  9903 11058 D WebRTCManager:    - Voice volume: 11
+02-08 04:26:14.924  9903 11058 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:26:14.924  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:15.031  9903 11136 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:15.031  9903 11136 D WebRTCManager: 🎤 AUDIO RECORD STARTED - Microphone capture beginning!
+02-08 04:26:15.031  9903 11136 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:15.422  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:15.422  9903  9903 D WebRTCManager: 🔍 VERIFYING AUDIO SETUP
+02-08 04:26:15.422  9903  9903 D WebRTCManager:    ✅ Local audio track OK
+02-08 04:26:15.423  9903  9903 D WebRTCManager:    ✅ Remote audio track OK
+02-08 04:26:15.424  9903  9903 D WebRTCManager:    ✅ Audio mode OK
+02-08 04:26:15.425  9903  9903 D WebRTCManager:    ✅ Voice call volume OK: 11
+02-08 04:26:15.426  9903  9903 D WebRTCManager:    Result: ✅ AUDIO SETUP VALID
+02-08 04:26:15.426  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:15.426  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:15.426  9903  9903 D WebRTCManager: 📊 WEBRTC STATS DEBUG
+02-08 04:26:15.426  9903  9903 D WebRTCManager:    State: CONNECTED
+02-08 04:26:15.426  9903  9903 D WebRTCManager:    Local audio track: audio0, enabled=true
+02-08 04:26:15.427  9903  9903 D WebRTCManager:    Remote audio track: 76e7d455-a8c1-4308-acb1-4696527a7c4a, enabled=true
+02-08 04:26:15.427  9903  9903 D WebRTCManager:    Muted: false
+02-08 04:26:15.429  9903  9903 D WebRTCManager:    Transceiver[0]:
+02-08 04:26:15.429  9903  9903 D WebRTCManager:      - Type: MEDIA_TYPE_AUDIO
+02-08 04:26:15.430  9903  9903 D WebRTCManager:      - Direction: SEND_RECV
+02-08 04:26:15.430  9903  9903 D WebRTCManager:      - Current direction: SEND_RECV
+02-08 04:26:15.430  9903  9903 D WebRTCManager:      - Stopped: false
+02-08 04:26:15.431  9903  9903 D WebRTCManager:      - Sender track: audio, enabled=true
+02-08 04:26:15.431  9903  9903 D WebRTCManager:      - Receiver track: audio, enabled=true
+02-08 04:26:15.431  9903  9903 D WebRTCManager:    AudioManager:
+02-08 04:26:15.432  9903  9903 D WebRTCManager:      - Mode: 3
+02-08 04:26:15.433  9903  9903 D WebRTCManager:      - Speakerphone: true
+02-08 04:26:15.434  9903  9903 D WebRTCManager:      - Microphone muted: false
+02-08 04:26:15.435  9903  9903 D WebRTCManager:      - Voice call volume: 11
+02-08 04:26:15.435  9903  9903 D WebRTCManager:      - Music volume: 13
+02-08 04:26:15.436  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:37.684  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:37.685  9903 11058 D WebRTCManager: 🔗 ICE connection state: DISCONNECTED
+02-08 04:26:37.685  9903 11058 W WebRTCManager:    ⚠️ ICE DISCONNECTED
+02-08 04:26:37.685  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:37.687  9903 10511 D CallManager: 📨 [MessageCollector] Received: CallEnded
+02-08 04:26:37.688  9903 10511 D CallManager: 📩 Processing message: CallEnded
+02-08 04:26:37.688  9903 10511 D CallManager: 📞 Call ended: b00c71fc-0a66-42b8-8443-7399ce6b08c5, reason: ended
+02-08 04:26:37.691  9903 10511 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:37.691  9903 10511 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:26:37.691  9903 10511 D WebRTCManager:    Final state:
+02-08 04:26:37.692  9903 10511 D WebRTCManager:    - Local audio track: true, enabled=true
+02-08 04:26:37.693  9903 10511 D WebRTCManager:    - Remote audio track: true, enabled=true
+02-08 04:26:37.693  9903 10511 D WebRTCManager:    - Connection state: DISCONNECTED
+02-08 04:26:37.704  9903 10511 D WebRTCManager: Audio configuration restored
+02-08 04:26:37.942  9903 11136 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:37.942  9903 11136 D WebRTCManager: 🎤 AUDIO RECORD STOPPED - Microphone capture ended!
+02-08 04:26:37.942  9903 11136 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:37.961  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:37.961  9903 11058 D WebRTCManager: 🔗 ICE connection state: CLOSED
+02-08 04:26:37.961  9903 11058 D WebRTCManager:    🚫 ICE CLOSED
+02-08 04:26:37.961  9903 11058 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:37.961  9903 11058 D WebRTCManager: Signaling state: CLOSED
+02-08 04:26:37.995  9903 11057 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:37.995  9903 11057 D WebRTCManager: 🔇 AUDIO TRACK STOPPED - Remote audio playback ended!
+02-08 04:26:37.995  9903 11057 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:26:38.006  9903 10511 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:18.687  9903  9903 D CallManager: Submitting share: Advice, Very Heavy, 10 min
+02-08 04:27:18.702  9903 10511 D CallManager: 📨 [MessageCollector] Received: ShareSubmitted
+02-08 04:27:18.702  9903 10511 D CallManager: 📩 Processing message: ShareSubmitted
+02-08 04:27:18.702  9903 10511 D CallManager: 📝 Share submitted: 4af3e514-54ac-4ae2-907f-4ce78df120a5, status: queued
+02-08 04:27:20.066  9903  9952 D CallManager: 📨 [MessageCollector] Received: MatchMade
+02-08 04:27:20.067  9903  9952 D CallManager: 📩 Processing message: MatchMade
+02-08 04:27:20.067  9903  9952 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.067  9903  9952 D CallManager: 🎯 MATCH MADE RECEIVED!
+02-08 04:27:20.067  9903  9952 D CallManager:    Thread: DefaultDispatcher-worker-6
+02-08 04:27:20.067  9903  9952 D CallManager:    Call ID: becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.067  9903  9952 D CallManager:    Role: sharer
+02-08 04:27:20.067  9903  9952 D CallManager:    Duration: 10 min
+02-08 04:27:20.067  9903  9952 D CallManager:    Topic: Advice
+02-08 04:27:20.067  9903  9952 D CallManager:    Intent: quick 
+02-08 04:27:20.067  9903  9952 D CallManager:    TURN servers: 2
+02-08 04:27:20.067  9903  9952 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.068  9903  9952 D CallManager:    Step 1: Setting currentRole to 'sharer'
+02-08 04:27:20.068  9903  9952 D CallManager:    ✓ currentRole is now: sharer
+02-08 04:27:20.068  9903  9952 D CallManager:    Step 2: Setting matchConsumed to false
+02-08 04:27:20.068  9903  9952 D CallManager:    Step 3: Setting currentCallId to 'becdffcb-fca8-4c70-aff0-98c05bcdf1f8'
+02-08 04:27:20.068  9903  9952 D CallManager:    Step 4: Clearing pendingShareId and incomingPreview
+02-08 04:27:20.069  9903  9952 D CallManager:    Step 5: Updating call parameters
+02-08 04:27:20.069  9903  9952 D CallManager:    Step 6: Setting matchInfo (THIS TRIGGERS NAVIGATION)
+02-08 04:27:20.069  9903  9952 D CallManager:    ✓ matchInfo is now set
+02-08 04:27:20.069  9903  9952 D CallManager: 📞 All state updated, now initializing WebRTC...
+02-08 04:27:20.069  9903  9952 D CallManager:    TURN: [turn:localhost:3478]
+02-08 04:27:20.069  9903  9952 D CallManager:    TURN: [stun:stun.l.google.com:19302]
+02-08 04:27:20.069  9903  9952 D CallManager: 🎬 Step 7: Calling initializeWebRTC(isInitiator=true)
+02-08 04:27:20.070  9903  9952 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.070  9903  9952 D CallManager: 🎬 initializeWebRTC CALLED
+02-08 04:27:20.070  9903  9952 D CallManager:    Thread: DefaultDispatcher-worker-6
+02-08 04:27:20.070  9903  9952 D CallManager:    isInitiator: true
+02-08 04:27:20.070  9903  9952 D CallManager:    turnServers: 2
+02-08 04:27:20.070  9903  9952 D CallManager:    callId: becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.070  9903  9952 D CallManager:    isWebRTCInitializing: false
+02-08 04:27:20.070  9903  9952 D CallManager:    lastInitializedCallId: null
+02-08 04:27:20.070  9903  9952 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.071  9903  9952 D CallManager:    Set isWebRTCInitializing = true
+02-08 04:27:20.071  9903  9952 D CallManager:    Cancelled previous WebRTC job
+02-08 04:27:20.071  9903  9952 D CallManager:    Launching coroutine on Main thread...
+02-08 04:27:20.071  9903  9952 D CallManager:    ✓ initializeWebRTC launched
+02-08 04:27:20.072  9903  9903 D CallManager: 🔧 initializeWebRTC - NOW ON MAIN THREAD
+02-08 04:27:20.073  9903  9903 D CallManager:    Thread: main
+02-08 04:27:20.073  9903  9903 D CallManager: 🧹 Disposing existing WebRTC manager
+02-08 04:27:20.073  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.073  9903  9903 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:27:20.073  9903  9903 D WebRTCManager:    Final state:
+02-08 04:27:20.073  9903  9903 D WebRTCManager:    - Local audio track: false, enabled=null
+02-08 04:27:20.073  9903  9903 D WebRTCManager:    - Remote audio track: false, enabled=null
+02-08 04:27:20.073  9903  9903 D WebRTCManager:    - Connection state: IDLE
+02-08 04:27:20.077  9903  9903 D WebRTCManager: Audio configuration restored
+02-08 04:27:20.077  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.081  9903  9903 D WebRTCManager: WebRTCManager disposed
+02-08 04:27:20.081  9903  9903 D CallManager: 🆕 Creating new WebRTCManager...
+02-08 04:27:20.082  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.082  9903  9903 D WebRTCManager: 🆕 WebRTCManager CONSTRUCTOR CALLED
+02-08 04:27:20.082  9903  9903 D WebRTCManager:    Thread: main
+02-08 04:27:20.082  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.082  9903  9903 D WebRTCManager: PeerConnectionFactory already initialized
+02-08 04:27:20.082  9903  9903 D WebRTCManager: 🏭 initializePeerConnectionFactory starting...
+02-08 04:27:20.082  9903  9903 D WebRTCManager:    ⚠️ Voice anonymization TEMPORARILY DISABLED for debugging
+02-08 04:27:20.091  9903  9903 D WebRTCManager:    ✅ PeerConnectionFactory created (standard audio, no voice processing)
+02-08 04:27:20.091  9903  9903 D WebRTCManager:    ✓ WebRTCManager constructor completed
+02-08 04:27:20.092  9903  9903 D CallManager: 🔌 Creating peer connection...
+02-08 04:27:20.092  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.092  9903  9903 D WebRTCManager: 🔌 createPeerConnection CALLED
+02-08 04:27:20.092  9903  9903 D WebRTCManager:    isInitiator: true
+02-08 04:27:20.092  9903  9903 D WebRTCManager:    Role: SHARER (will create offer)
+02-08 04:27:20.092  9903  9903 D WebRTCManager:    TURN servers: 2
+02-08 04:27:20.092  9903  9903 D WebRTCManager:    - [turn:localhost:3478]
+02-08 04:27:20.092  9903  9903 D WebRTCManager:    - [stun:stun.l.google.com:19302]
+02-08 04:27:20.092  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.092  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.092  9903  9903 D WebRTCManager: 🔊 configureAudioForCall CALLED
+02-08 04:27:20.094  9903  9903 D WebRTCManager:    Saved audio mode: 0, speakerphone: false
+02-08 04:27:20.095  9903  9903 D WebRTCManager:    Set mode to MODE_IN_COMMUNICATION
+02-08 04:27:20.197  9903  9903 D WebRTCManager:    Set speakerphone ON for hands-free calling
+02-08 04:27:20.207  9903  9903 D WebRTCManager:    Set VOICE_CALL volume to 9 / 11
+02-08 04:27:20.213  9903  9903 D WebRTCManager:    Set MUSIC volume to 13 / 15 (fallback)
+02-08 04:27:20.216  9903  9903 D WebRTCManager:    Audio focus request result: 1 (1=granted)
+02-08 04:27:20.216  9903  9903 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:27:20.216  9903  9903 D WebRTCManager:    FINAL AUDIO STATE:
+02-08 04:27:20.537  9903  9903 D WebRTCManager:    - Mode: 3 (3=MODE_IN_COMMUNICATION)
+02-08 04:27:20.573  9903  9903 D WebRTCManager:    - Speakerphone: true
+02-08 04:27:20.574  9903  9903 D WebRTCManager:    - Microphone muted: false
+02-08 04:27:20.575  9903  9903 D WebRTCManager:    - Music active: false
+02-08 04:27:20.626  9903  9903 D WebRTCManager:    - Voice call volume: 11
+02-08 04:27:20.626  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.626  9903  9903 D WebRTCManager:    ICE servers built: 3
+02-08 04:27:20.630  9903  9903 D WebRTCManager: ✅ PeerConnection created
+02-08 04:27:20.630  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.630  9903  9903 D WebRTCManager: 🎤 createLocalAudioTrack CALLED
+02-08 04:27:20.630  9903  9903 D WebRTCManager:    Thread: main
+02-08 04:27:20.630  9903  9903 D WebRTCManager:    peerConnectionFactory: true
+02-08 04:27:20.630  9903  9903 D WebRTCManager:    peerConnection: true
+02-08 04:27:20.630  9903  9903 D WebRTCManager:    ✓ Audio constraints created
+02-08 04:27:20.630  9903  9903 D WebRTCManager:    audioSource created: true
+02-08 04:27:20.631  9903  9903 D WebRTCManager:    localAudioTrack created: true
+02-08 04:27:20.631  9903  9903 D WebRTCManager:    localAudioTrack enabled: true
+02-08 04:27:20.632  9903 11422 D WebRTCManager: Renegotiation needed
+02-08 04:27:20.633  9903  9903 D WebRTCManager:    Track added to peerConnection, sender: true
+02-08 04:27:20.633  9903  9903 D WebRTCManager:    Sender track: audio
+02-08 04:27:20.633  9903  9903 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:27:20.633  9903  9903 D WebRTCManager:    TRANSCEIVERS AFTER ADDING LOCAL TRACK:
+02-08 04:27:20.633  9903  9903 D WebRTCManager:    Transceiver[0]:
+02-08 04:27:20.634  9903  9903 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:27:20.634  9903  9903 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:27:20.634  9903  9903 D WebRTCManager:      - currentDirection: null
+02-08 04:27:20.634  9903  9903 D WebRTCManager:      - mid: null
+02-08 04:27:20.634  9903  9903 D WebRTCManager:      - sender.track: audio
+02-08 04:27:20.634  9903  9903 D WebRTCManager:      - receiver.track: audio
+02-08 04:27:20.634  9903  9903 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:27:20.634  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.634  9903  9903 D WebRTCManager: ✅ Local audio track created - THIS DEVICE CAN NOW TRANSMIT AUDIO
+02-08 04:27:20.634  9903  9903 D WebRTCManager: 🔄 State set to CONNECTING
+02-08 04:27:20.635  9903  9903 D WebRTCManager: 📤 Creating offer (we are initiator)
+02-08 04:27:20.636  9903  9903 D WebRTCManager: PeerConnection created (initiator: true)
+02-08 04:27:20.636  9903  9903 D CallManager: ✅ WebRTC initialized successfully, isInitiator: true
+02-08 04:27:20.636  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.636  9903 11422 D WebRTCManager: 📤 OFFER CREATED!
+02-08 04:27:20.636  9903 11422 D WebRTCManager:    type: OFFER
+02-08 04:27:20.636  9903 11422 D WebRTCManager:    description length: 1175
+02-08 04:27:20.637  9903 11422 D WebRTCManager:    hasAudio: true
+02-08 04:27:20.637  9903 11422 D WebRTCManager:    audioDirection: sendrecv
+02-08 04:27:20.637  9903 11422 D WebRTCManager:    Transceivers at offer creation:
+02-08 04:27:20.638  9903 11422 D WebRTCManager:      [0] type=MEDIA_TYPE_AUDIO, dir=SEND_RECV, mid=null
+02-08 04:27:20.638  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.641  9903 11422 D WebRTCManager: Signaling state: HAVE_LOCAL_OFFER
+02-08 04:27:20.644  9903 11422 D WebRTCManager: Local description set
+02-08 04:27:20.648  9903  9903 D CallManager: 🔊 WebRTC state changed: CONNECTING
+02-08 04:27:20.650  9903  9903 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.650  9903  9903 D CallManager: 🔒 tryConsumeMatch() CALLED
+02-08 04:27:20.650  9903  9903 D CallManager:    Thread: main
+02-08 04:27:20.650  9903  9903 D CallManager:    Current _matchConsumed.value: false
+02-08 04:27:20.650  9903  9903 D CallManager:    Current matchInfo: becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.650  9903  9903 D CallManager:    [INSIDE LOCK] Checking consumed state...
+02-08 04:27:20.650  9903  9903 D CallManager:    ✓ Match consumed successfully - returning true
+02-08 04:27:20.650  9903  9903 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.673  9903 11422 D WebRTCManager: ICE gathering state: GATHERING
+02-08 04:27:20.696  9903 11422 D WebRTCManager: Local ICE candidate: 0
+02-08 04:27:20.697  9903 11422 D WebRTCManager: Local ICE candidate: 0
+02-08 04:27:20.698  9903 11422 D WebRTCManager: Local ICE candidate: 0
+02-08 04:27:20.740  9903 11422 D WebRTCManager: Local ICE candidate: 0
+02-08 04:27:20.769  9903  9949 D CallManager: 📤 Sending OFFER for call becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.799  9903 11422 D WebRTCManager: Local ICE candidate: 0
+02-08 04:27:20.799  9903 11422 D WebRTCManager: Local ICE candidate: 0
+02-08 04:27:20.799  9903 11422 D WebRTCManager: Local ICE candidate: 0
+02-08 04:27:20.801  9903  9949 D CallManager: 📤 Sending ICE candidate for call becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.803  9903  9949 D CallManager: 📤 Sending ICE candidate for call becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.805  9903  9949 D CallManager: 📤 Sending ICE candidate for call becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.806  9903  9949 D CallManager: 📤 Sending ICE candidate for call becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.809  9903  9949 D CallManager: 📤 Sending ICE candidate for call becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.810  9903  9949 D CallManager: 📤 Sending ICE candidate for call becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.812  9903  9949 D CallManager: 📤 Sending ICE candidate for call becdffcb-fca8-4c70-aff0-98c05bcdf1f8
+02-08 04:27:20.934  9903  9949 D CallManager: 📨 [MessageCollector] Received: WebRtcAnswer
+02-08 04:27:20.935  9903  9949 D CallManager: 📩 Processing message: WebRtcAnswer
+02-08 04:27:20.935  9903  9949 D CallManager: 📥 Received WebRTC ANSWER, sdp length: 1135
+02-08 04:27:20.935  9903  9949 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:20.935  9903  9949 D WebRTCManager: 📥 setRemoteDescription CALLED
+02-08 04:27:20.935  9903  9949 D WebRTCManager:    Thread: DefaultDispatcher-worker-3
+02-08 04:27:20.935  9903  9949 D WebRTCManager:    isAnswer: true
+02-08 04:27:20.935  9903  9949 D WebRTCManager:    sdp.type: ANSWER
+02-08 04:27:20.935  9903  9949 D WebRTCManager:    sdp.description length: 1135
+02-08 04:27:20.936  9903  9949 D WebRTCManager:    hasRemoteDescriptionBeenSet: false
+02-08 04:27:20.936  9903  9949 D WebRTCManager:    peerConnection: true
+02-08 04:27:20.936  9903  9949 D WebRTCManager:    ✓ Set hasRemoteDescriptionBeenSet = true
+02-08 04:27:20.938  9903 11422 D WebRTCManager: Signaling state: STABLE
+02-08 04:27:21.005  9903 11475 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.005  9903 11475 D WebRTCManager: 🔊 AUDIO TRACK STARTED - Remote audio playback beginning!
+02-08 04:27:21.005  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.005  9903 11475 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.005  9903 11422 D WebRTCManager: 🔗 ICE connection state: CHECKING
+02-08 04:27:21.005  9903 11422 D WebRTCManager:    🔍 ICE checking - attempting to connect...
+02-08 04:27:21.005  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.006  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.006  9903 11422 D WebRTCManager: 🔊 onTrack - TRANSCEIVER RECEIVED!
+02-08 04:27:21.006  9903 11422 D WebRTCManager:    Thread: signaling_threa - 11422
+02-08 04:27:21.006  9903 11422 D WebRTCManager:    transceiver: true
+02-08 04:27:21.006  9903 11422 D WebRTCManager:    mediaType: MEDIA_TYPE_AUDIO
+02-08 04:27:21.006  9903 11422 D WebRTCManager:    direction: SEND_RECV
+02-08 04:27:21.006  9903 11422 D WebRTCManager:    mid: 0
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    currentDirection: SEND_RECV
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    isStopped: false
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    This is an AUDIO transceiver
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    Receiver track: kind=audio, id=0b9beceb-d924-4369-a68b-4ed0cfe34465, enabled=true
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    ✅ Remote audio track from transceiver ENABLED!
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    Track state: LIVE
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    Track enabled: true
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    Sender track (local): kind=audio, id=audio0, enabled=true
+02-08 04:27:21.007  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.007  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.007  9903 11422 D WebRTCManager: 🔊 onAddTrack - REMOTE TRACK ADDED!
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    Thread: signaling_threa - 11422
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    receiver: true
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    receiver.track: org.webrtc.AudioTrack@3c66101
+02-08 04:27:21.007  9903 11422 D WebRTCManager:    receiver.track kind: audio
+02-08 04:27:21.008  9903 11422 D WebRTCManager:    receiver.track id: 0b9beceb-d924-4369-a68b-4ed0cfe34465
+02-08 04:27:21.008  9903 11422 D WebRTCManager:    receiver.track enabled: true
+02-08 04:27:21.008  9903 11422 D WebRTCManager:    streams count: 1
+02-08 04:27:21.008  9903 11422 D WebRTCManager:    Processing track: kind=audio, id=0b9beceb-d924-4369-a68b-4ed0cfe34465
+02-08 04:27:21.008  9903 11422 D WebRTCManager:    ✅ Remote audio track ENABLED for playback!
+02-08 04:27:21.008  9903 11422 D WebRTCManager:    remoteAudioTrack.id: 0b9beceb-d924-4369-a68b-4ed0cfe34465
+02-08 04:27:21.008  9903 11422 D WebRTCManager:    remoteAudioTrack.enabled: true
+02-08 04:27:21.008  9903 11422 D WebRTCManager:    remoteAudioTrack.state: LIVE
+02-08 04:27:21.008  9903 11422 D WebRTCManager:    Current audio state:
+02-08 04:27:21.011  9903 11422 D WebRTCManager:    - Mode: 3
+02-08 04:27:21.012  9903 11422 D WebRTCManager:    - Speakerphone: true
+02-08 04:27:21.013  9903 11422 D WebRTCManager:    - Voice call volume: 11
+02-08 04:27:21.013  9903 11422 D WebRTCManager:    Stream ID: stream0
+02-08 04:27:21.013  9903 11422 D WebRTCManager:    Audio tracks in stream: 1
+02-08 04:27:21.014  9903 11422 D WebRTCManager:    Audio track [0]: id=0b9beceb-d924-4369-a68b-4ed0cfe34465, enabled=true
+02-08 04:27:21.014  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.014  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.014  9903 11422 D WebRTCManager: 📥 onAddStream - REMOTE STREAM ADDED!
+02-08 04:27:21.014  9903 11422 D WebRTCManager:    stream: true
+02-08 04:27:21.014  9903 11422 D WebRTCManager:    stream.id: stream0
+02-08 04:27:21.014  9903 11422 D WebRTCManager:    audioTracks count: 1
+02-08 04:27:21.014  9903 11422 D WebRTCManager:    videoTracks count: 0
+02-08 04:27:21.014  9903 11422 D WebRTCManager:    Audio track[0]: id=0b9beceb-d924-4369-a68b-4ed0cfe34465, enabled=true, state=LIVE
+02-08 04:27:21.014  9903 11422 D WebRTCManager:    Audio track[0] ENABLED: true
+02-08 04:27:21.014  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.014  9903 11422 D WebRTCManager:    ✅ Remote description set successfully!
+02-08 04:27:21.015  9903 11422 D WebRTCManager:    isAnswer: true
+02-08 04:27:21.015  9903  9949 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.015  9903  9949 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:27:21.016  9903  9949 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:27:21.016  9903  9949 D CallManager: 📥 Received ICE candidate: candidate:1944532382 1 udp 2122260223 192.168.1.18...
+02-08 04:27:21.017  9903  9949 D WebRTCManager: Remote ICE candidate added
+02-08 04:27:21.017  9903  9949 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:27:21.017  9903  9949 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:27:21.017  9903  9949 D CallManager: 📥 Received ICE candidate: candidate:1713659397 1 udp 2121998079 127.0.0.1 49...
+02-08 04:27:21.018  9903  9949 D WebRTCManager: Remote ICE candidate added
+02-08 04:27:21.019  9903  9949 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:27:21.019  9903  9949 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:27:21.019  9903  9949 D CallManager: 📥 Received ICE candidate: candidate:1997032589 1 udp 2122071295 ::1 42149 ty...
+02-08 04:27:21.019  9903  9949 D WebRTCManager: Remote ICE candidate added
+02-08 04:27:21.033  9903  9952 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:27:21.033  9903  9952 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:27:21.033  9903  9952 D CallManager: 📥 Received ICE candidate: candidate:2562725154 1 udp 1686052607 154.159.237....
+02-08 04:27:21.034  9903  9952 D WebRTCManager: Remote ICE candidate added
+02-08 04:27:21.084  9903  9952 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:27:21.084  9903  9952 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:27:21.085  9903  9952 D CallManager: 📥 Received ICE candidate: candidate:2451345302 1 tcp 1518214911 10.43.174.17...
+02-08 04:27:21.085  9903  9952 D WebRTCManager: Remote ICE candidate added
+02-08 04:27:21.086  9903  9952 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:27:21.087  9903  9952 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:27:21.087  9903  9952 D CallManager: 📥 Received ICE candidate: candidate:4287565026 1 tcp 1518149375 10.0.132.80 ...
+02-08 04:27:21.088  9903  9952 D WebRTCManager: Remote ICE candidate added
+02-08 04:27:21.089  9903  9952 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:27:21.089  9903  9952 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:27:21.089  9903  9952 D CallManager: 📥 Received ICE candidate: candidate:2559478417 1 tcp 1518018303 127.0.0.1 56...
+02-08 04:27:21.090  9903  9952 D WebRTCManager: Remote ICE candidate added
+02-08 04:27:21.147  9903  9948 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:27:21.147  9903  9948 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:27:21.148  9903  9948 D CallManager: 📥 Received ICE candidate: candidate:2309134361 1 tcp 1518091519 ::1 60531 ty...
+02-08 04:27:21.149  9903  9948 D WebRTCManager: Remote ICE candidate added
+02-08 04:27:21.279  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.279  9903 11422 D WebRTCManager: 🔗 ICE connection state: CONNECTED
+02-08 04:27:21.279  9903 11422 D WebRTCManager:    ✅ ICE CONNECTED - WebRTC call established!
+02-08 04:27:21.281  9903 11422 D WebRTCManager:    🔊 Re-applying audio configuration (WebRTC resets it)...
+02-08 04:27:21.283  9903 11422 D WebRTCManager:    forceAudioModeForCall: current mode = 3
+02-08 04:27:21.286  9903 11422 D WebRTCManager:    ✅ Audio mode confirmed: MODE_IN_COMMUNICATION
+02-08 04:27:21.286  9903 11422 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:27:21.286  9903 11422 D WebRTCManager:    AUDIO VERIFICATION ON ICE CONNECTED:
+02-08 04:27:21.286  9903 11422 D WebRTCManager:    Local audio track: true
+02-08 04:27:21.287  9903 11422 D WebRTCManager:    Local audio enabled: true
+02-08 04:27:21.287  9903  9903 D CallManager: 🔊 WebRTC state changed: CONNECTED
+02-08 04:27:21.287  9903 11422 D WebRTCManager:    Remote audio track: true
+02-08 04:27:21.287  9903  9903 D CallManager: 🔊 WebRTC CONNECTED - verifying audio setup...
+02-08 04:27:21.287  9903 11422 D WebRTCManager:    Remote audio enabled: true
+02-08 04:27:21.287  9903 11422 D WebRTCManager:    Transceiver[0]:
+02-08 04:27:21.287  9903 11422 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:27:21.288  9903 11422 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:27:21.288  9903 11422 D WebRTCManager:      - currentDirection: SEND_RECV
+02-08 04:27:21.288  9903 11422 D WebRTCManager:      - mid: 0
+02-08 04:27:21.288  9903 11422 D WebRTCManager:      - Receiver track: kind=audio, enabled=true, state=LIVE
+02-08 04:27:21.288  9903 11422 D WebRTCManager:      - Sender track: kind=audio, enabled=true, state=LIVE
+02-08 04:27:21.288  9903 11422 D WebRTCManager:    AudioManager state AFTER force:
+02-08 04:27:21.289  9903 11422 D WebRTCManager:    - Mode: 3 (3=IN_COMMUNICATION)
+02-08 04:27:21.290  9903 11422 D WebRTCManager:    - Speakerphone: true
+02-08 04:27:21.291  9903 11422 D WebRTCManager:    - Mic muted: false
+02-08 04:27:21.292  9903 11422 D WebRTCManager:    - Voice volume: 11
+02-08 04:27:21.292  9903 11422 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:27:21.292  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.398  9903 11481 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.398  9903 11481 D WebRTCManager: 🎤 AUDIO RECORD STARTED - Microphone capture beginning!
+02-08 04:27:21.398  9903 11481 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.787  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.787  9903  9903 D WebRTCManager: 🔍 VERIFYING AUDIO SETUP
+02-08 04:27:21.788  9903  9903 D WebRTCManager:    ✅ Local audio track OK
+02-08 04:27:21.788  9903  9903 D WebRTCManager:    ✅ Remote audio track OK
+02-08 04:27:21.789  9903  9903 D WebRTCManager:    ✅ Audio mode OK
+02-08 04:27:21.790  9903  9903 D WebRTCManager:    ✅ Voice call volume OK: 11
+02-08 04:27:21.790  9903  9903 D WebRTCManager:    Result: ✅ AUDIO SETUP VALID
+02-08 04:27:21.790  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.790  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:27:21.790  9903  9903 D WebRTCManager: 📊 WEBRTC STATS DEBUG
+02-08 04:27:21.790  9903  9903 D WebRTCManager:    State: CONNECTED
+02-08 04:27:21.791  9903  9903 D WebRTCManager:    Local audio track: audio0, enabled=true
+02-08 04:27:21.791  9903  9903 D WebRTCManager:    Remote audio track: 0b9beceb-d924-4369-a68b-4ed0cfe34465, enabled=true
+02-08 04:27:21.791  9903  9903 D WebRTCManager:    Muted: false
+02-08 04:27:21.792  9903  9903 D WebRTCManager:    Transceiver[0]:
+02-08 04:27:21.792  9903  9903 D WebRTCManager:      - Type: MEDIA_TYPE_AUDIO
+02-08 04:27:21.793  9903  9903 D WebRTCManager:      - Direction: SEND_RECV
+02-08 04:27:21.793  9903  9903 D WebRTCManager:      - Current direction: SEND_RECV
+02-08 04:27:21.794  9903  9903 D WebRTCManager:      - Stopped: false
+02-08 04:27:21.794  9903  9903 D WebRTCManager:      - Sender track: audio, enabled=true
+02-08 04:27:21.794  9903  9903 D WebRTCManager:      - Receiver track: audio, enabled=true
+02-08 04:27:21.794  9903  9903 D WebRTCManager:    AudioManager:
+02-08 04:27:21.796  9903  9903 D WebRTCManager:      - Mode: 3
+02-08 04:27:21.796  9903  9903 D WebRTCManager:      - Speakerphone: true
+02-08 04:27:21.797  9903  9903 D WebRTCManager:      - Microphone muted: false
+02-08 04:27:21.797  9903  9903 D WebRTCManager:      - Voice call volume: 11
+02-08 04:27:21.798  9903  9903 D WebRTCManager:      - Music volume: 13
+02-08 04:27:21.798  9903  9903 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.518  9903  9948 D CallManager: 📨 [MessageCollector] Received: CallEnded
+02-08 04:29:14.518  9903  9948 D CallManager: 📩 Processing message: CallEnded
+02-08 04:29:14.519  9903  9948 D CallManager: 📞 Call ended: becdffcb-fca8-4c70-aff0-98c05bcdf1f8, reason: ended
+02-08 04:29:14.523  9903  9948 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.524  9903  9948 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:29:14.524  9903  9948 D WebRTCManager:    Final state:
+02-08 04:29:14.524  9903  9948 D WebRTCManager:    - Local audio track: true, enabled=true
+02-08 04:29:14.525  9903  9948 D WebRTCManager:    - Remote audio track: true, enabled=true
+02-08 04:29:14.526  9903  9948 D WebRTCManager:    - Connection state: CONNECTED
+02-08 04:29:14.534  9903  9948 D WebRTCManager: Audio configuration restored
+02-08 04:29:14.805  9903 11481 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.805  9903 11481 D WebRTCManager: 🎤 AUDIO RECORD STOPPED - Microphone capture ended!
+02-08 04:29:14.805  9903 11481 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.817  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.817  9903 11422 D WebRTCManager: 🔗 ICE connection state: DISCONNECTED
+02-08 04:29:14.817  9903 11422 W WebRTCManager:    ⚠️ ICE DISCONNECTED
+02-08 04:29:14.817  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.819  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.819  9903 11422 D WebRTCManager: 🔗 ICE connection state: CLOSED
+02-08 04:29:14.819  9903 11422 D WebRTCManager:    🚫 ICE CLOSED
+02-08 04:29:14.819  9903 11422 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.819  9903 11422 D WebRTCManager: Signaling state: CLOSED
+02-08 04:29:14.838  9903 11421 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.838  9903 11421 D WebRTCManager: 🔇 AUDIO TRACK STOPPED - Remote audio playback ended!
+02-08 04:29:14.838  9903 11421 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:29:14.844  9903  9948 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:28.191 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:28.191 13403 13403 D WebRTCManager: 🏭 INITIALIZING PeerConnectionFactory (ONCE)
+02-08 04:36:28.191 13403 13403 D WebRTCManager:    Thread: main
+02-08 04:36:28.207 13403 13403 D WebRTCManager:    ✓ PeerConnectionFactory initialized successfully
+02-08 04:36:28.207 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:28.224 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:28.224 13403 13403 D CallManager: 🚀 initialize() CALLED
+02-08 04:36:28.224 13403 13403 D CallManager:    Thread: main
+02-08 04:36:28.224 13403 13403 D CallManager:    isInitialized: false
+02-08 04:36:28.224 13403 13403 D CallManager:    ✓ Set isInitialized = true
+02-08 04:36:28.224 13403 13403 D CallManager:    ✓ appContext set
+02-08 04:36:28.224 13403 13403 D CallManager:    Existing userId from prefs: 2099046b-47f5-47a8-86d5-e65033dd8059
+02-08 04:36:28.224 13403 13403 D CallManager:    📱 Final User ID: 2099046b-47f5-47a8-86d5-e65033dd8059
+02-08 04:36:28.224 13403 13403 D CallManager:    🔌 Connecting to signaling server...
+02-08 04:36:28.280 13403 13403 D CallManager:    ✓ signalingClient.connect() called
+02-08 04:36:28.280 13403 13403 D CallManager:    📨 Starting message collector coroutine...
+02-08 04:36:28.287 13403 13403 D CallManager:    🔌 Starting connection state collector coroutine...
+02-08 04:36:28.289 13403 13403 D CallManager:    ✅ All collector coroutines launched
+02-08 04:36:28.289 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:28.290 13403 13453 D CallManager:    [MessageCollector] Coroutine started
+02-08 04:36:28.294 13403 13454 D CallManager:    [ConnectionStateCollector] Coroutine started
+02-08 04:36:28.296 13403 13454 D CallManager: 🔌 [ConnectionStateCollector] State: CONNECTING
+02-08 04:36:28.297 13403 13454 D CallManager:    currentCallId: null
+02-08 04:36:28.297 13403 13454 D CallManager:    currentRole: null
+02-08 04:36:28.297 13403 13454 D CallManager:    hasAutoRegistered: false
+02-08 04:36:28.321 13403 13453 D CallManager: 🔌 [ConnectionStateCollector] State: CONNECTED
+02-08 04:36:28.321 13403 13453 D CallManager:    currentCallId: null
+02-08 04:36:28.321 13403 13453 D CallManager:    currentRole: null
+02-08 04:36:28.321 13403 13453 D CallManager:    hasAutoRegistered: false
+02-08 04:36:28.321 13403 13453 D CallManager:    📝 Registering as listener...
+02-08 04:36:28.327 13403 13453 D CallManager:    ✓ register() called
+02-08 04:36:28.327 13403 13453 D CallManager:    📡 Setting availability to true...
+02-08 04:36:28.330 13403 13453 D CallManager:    ✅ Auto-registered as listener with availability ON
+02-08 04:36:28.330 13403 13453 D CallManager:    🔑 Registering FCM token...
+02-08 04:36:28.330 13403 13453 D CallManager: 🔑 registerFcmToken() called
+02-08 04:36:28.330 13403 13453 D CallManager:    hasFcmTokenRegistered: false
+02-08 04:36:28.330 13403 13453 D CallManager:    ✓ Set hasFcmTokenRegistered = true
+02-08 04:36:28.343 13403 13454 D CallManager: 📨 [MessageCollector] Received: AvailabilityConfirmed
+02-08 04:36:28.343 13403 13454 D CallManager: 📩 Processing message: AvailabilityConfirmed
+02-08 04:36:28.343 13403 13454 D CallManager: ❓ Unhandled message type: AvailabilityConfirmed
+02-08 04:36:28.368 13403 13454 D CallManager: 📨 [MessageCollector] Received: Connected
+02-08 04:36:28.368 13403 13454 D CallManager: 📩 Processing message: Connected
+02-08 04:36:28.368 13403 13454 D CallManager: 🔗 Connected with client ID: anon_9d697bd1-5fdf-42d7-b2e8-3909749b6320
+02-08 04:36:29.416 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:29.416 13403 13403 D CallManager: 🚀 initialize() CALLED
+02-08 04:36:29.416 13403 13403 D CallManager:    Thread: main
+02-08 04:36:29.416 13403 13403 D CallManager:    isInitialized: true
+02-08 04:36:29.416 13403 13403 D CallManager:    ⚠️ Already initialized - returning early
+02-08 04:36:29.417 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:29.417 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:29.417 13403 13403 D CallManager: 👂 setRoleListener() CALLED
+02-08 04:36:29.417 13403 13403 D CallManager:    Thread: main
+02-08 04:36:29.417 13403 13403 D CallManager:    available: true
+02-08 04:36:29.417 13403 13403 D CallManager:    topics: []
+02-08 04:36:29.417 13403 13403 D CallManager:    Current role: listener
+02-08 04:36:29.417 13403 13403 D CallManager:    Current availability: true
+02-08 04:36:29.417 13403 13403 D CallManager:    Connection state: CONNECTED
+02-08 04:36:29.417 13403 13403 D CallManager:    roleChanged: false
+02-08 04:36:29.417 13403 13403 D CallManager:    availabilityChanged: false
+02-08 04:36:29.417 13403 13403 D CallManager:    ⚠️ No change needed - returning early
+02-08 04:36:29.417 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:29.421 13403 13403 D CallManager:    ✓ Got FCM token: elX_hCRySM-KK7Jr_dW-...
+02-08 04:36:52.533 13403 13403 D CallManager: Submitting share: Grief, Very Heavy, 10 min
+02-08 04:36:52.589 13403 13453 D CallManager: 📨 [MessageCollector] Received: ShareSubmitted
+02-08 04:36:52.589 13403 13453 D CallManager: 📩 Processing message: ShareSubmitted
+02-08 04:36:52.589 13403 13453 D CallManager: 📝 Share submitted: 9b7c61cf-e063-43c2-8c9b-cedd3c7b4732, status: queued
+02-08 04:36:54.021 13403 13456 D CallManager: 📨 [MessageCollector] Received: MatchMade
+02-08 04:36:54.021 13403 13456 D CallManager: 📩 Processing message: MatchMade
+02-08 04:36:54.021 13403 13456 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.021 13403 13456 D CallManager: 🎯 MATCH MADE RECEIVED!
+02-08 04:36:54.021 13403 13456 D CallManager:    Thread: DefaultDispatcher-worker-4
+02-08 04:36:54.021 13403 13456 D CallManager:    Call ID: db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.021 13403 13456 D CallManager:    Role: sharer
+02-08 04:36:54.021 13403 13456 D CallManager:    Duration: 10 min
+02-08 04:36:54.022 13403 13456 D CallManager:    Topic: Grief
+02-08 04:36:54.022 13403 13456 D CallManager:    Intent: quick question for me and I will be in the office tomorrow so I can 
+02-08 04:36:54.022 13403 13456 D CallManager:    TURN servers: 2
+02-08 04:36:54.022 13403 13456 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.022 13403 13456 D CallManager:    Step 1: Setting currentRole to 'sharer'
+02-08 04:36:54.022 13403 13456 D CallManager:    ✓ currentRole is now: sharer
+02-08 04:36:54.022 13403 13456 D CallManager:    Step 2: Setting matchConsumed to false
+02-08 04:36:54.022 13403 13456 D CallManager:    Step 3: Setting currentCallId to 'db4d2252-9a3d-4785-b9cc-1d8fd58ae17c'
+02-08 04:36:54.022 13403 13456 D CallManager:    Step 4: Clearing pendingShareId and incomingPreview
+02-08 04:36:54.023 13403 13456 D CallManager:    Step 5: Updating call parameters
+02-08 04:36:54.023 13403 13456 D CallManager:    Step 6: Setting matchInfo (THIS TRIGGERS NAVIGATION)
+02-08 04:36:54.023 13403 13456 D CallManager:    ✓ matchInfo is now set
+02-08 04:36:54.023 13403 13456 D CallManager: 📞 All state updated, now initializing WebRTC...
+02-08 04:36:54.023 13403 13456 D CallManager:    TURN: [turn:localhost:3478]
+02-08 04:36:54.023 13403 13456 D CallManager:    TURN: [stun:stun.l.google.com:19302]
+02-08 04:36:54.023 13403 13456 D CallManager: 🎬 Step 7: Calling initializeWebRTC(isInitiator=true)
+02-08 04:36:54.024 13403 13456 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.024 13403 13456 D CallManager: 🎬 initializeWebRTC CALLED
+02-08 04:36:54.024 13403 13456 D CallManager:    Thread: DefaultDispatcher-worker-4
+02-08 04:36:54.024 13403 13456 D CallManager:    isInitiator: true
+02-08 04:36:54.024 13403 13456 D CallManager:    turnServers: 2
+02-08 04:36:54.024 13403 13456 D CallManager:    callId: db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.024 13403 13456 D CallManager:    isWebRTCInitializing: false
+02-08 04:36:54.024 13403 13456 D CallManager:    lastInitializedCallId: null
+02-08 04:36:54.024 13403 13456 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.024 13403 13456 D CallManager:    Set isWebRTCInitializing = true
+02-08 04:36:54.024 13403 13456 D CallManager:    Cancelled previous WebRTC job
+02-08 04:36:54.024 13403 13456 D CallManager:    Launching coroutine on Main thread...
+02-08 04:36:54.026 13403 13456 D CallManager:    ✓ initializeWebRTC launched
+02-08 04:36:54.026 13403 13403 D CallManager: 🔧 initializeWebRTC - NOW ON MAIN THREAD
+02-08 04:36:54.026 13403 13403 D CallManager:    Thread: main
+02-08 04:36:54.026 13403 13403 D CallManager: 🆕 Creating new WebRTCManager...
+02-08 04:36:54.027 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.027 13403 13403 D WebRTCManager: 🆕 WebRTCManager CONSTRUCTOR CALLED
+02-08 04:36:54.027 13403 13403 D WebRTCManager:    Thread: main
+02-08 04:36:54.027 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.027 13403 13403 D WebRTCManager: PeerConnectionFactory already initialized
+02-08 04:36:54.027 13403 13403 D WebRTCManager: 🏭 initializePeerConnectionFactory starting...
+02-08 04:36:54.027 13403 13403 D WebRTCManager:    ⚠️ Voice anonymization TEMPORARILY DISABLED for debugging
+02-08 04:36:54.051 13403 13403 D WebRTCManager:    ✅ JavaAudioDeviceModule created
+02-08 04:36:54.051 13403 13403 D WebRTCManager:       - Hardware AEC enabled: true
+02-08 04:36:54.051 13403 13403 D WebRTCManager:       - Hardware NS enabled: true
+02-08 04:36:54.062 13403 13403 D WebRTCManager:    ✅ PeerConnectionFactory created (standard audio, no voice processing)
+02-08 04:36:54.062 13403 13403 D WebRTCManager:    ✓ WebRTCManager constructor completed
+02-08 04:36:54.063 13403 13403 D CallManager: 🔌 Creating peer connection...
+02-08 04:36:54.063 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.063 13403 13403 D WebRTCManager: 🔌 createPeerConnection CALLED
+02-08 04:36:54.064 13403 13403 D WebRTCManager:    isInitiator: true
+02-08 04:36:54.064 13403 13403 D WebRTCManager:    Role: SHARER (will create offer)
+02-08 04:36:54.064 13403 13403 D WebRTCManager:    TURN servers: 2
+02-08 04:36:54.064 13403 13403 D WebRTCManager:    - [turn:localhost:3478]
+02-08 04:36:54.064 13403 13403 D WebRTCManager:    - [stun:stun.l.google.com:19302]
+02-08 04:36:54.064 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.064 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.064 13403 13403 D WebRTCManager: 🔊 configureAudioForCall CALLED
+02-08 04:36:54.067 13403 13403 D WebRTCManager:    Saved audio mode: 0, speakerphone: false
+02-08 04:36:54.072 13403 13403 D WebRTCManager:    Set mode to MODE_IN_COMMUNICATION
+02-08 04:36:54.078 13403 13403 D WebRTCManager:    Set speakerphone OFF (prevents echo)
+02-08 04:36:54.172 13403 13403 D WebRTCManager:    Set VOICE_CALL volume to 9 / 11
+02-08 04:36:54.177 13403 13403 D WebRTCManager:    Set MUSIC volume to 13 / 15 (fallback)
+02-08 04:36:54.183 13403 13403 D WebRTCManager:    Audio focus request result: 1 (1=granted)
+02-08 04:36:54.183 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:36:54.183 13403 13403 D WebRTCManager:    FINAL AUDIO STATE:
+02-08 04:36:54.203 13403 13403 D WebRTCManager:    - Mode: 3 (3=MODE_IN_COMMUNICATION)
+02-08 04:36:54.210 13403 13403 D WebRTCManager:    - Speakerphone: false
+02-08 04:36:54.211 13403 13403 D WebRTCManager:    - Microphone muted: false
+02-08 04:36:54.213 13403 13403 D WebRTCManager:    - Music active: false
+02-08 04:36:54.270 13403 13403 D WebRTCManager:    - Voice call volume: 9
+02-08 04:36:54.270 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.272 13403 13403 D WebRTCManager:    ICE servers built: 3
+02-08 04:36:54.290 13403 13403 D WebRTCManager: ✅ PeerConnection created
+02-08 04:36:54.290 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.290 13403 13403 D WebRTCManager: 🎤 createLocalAudioTrack CALLED
+02-08 04:36:54.290 13403 13403 D WebRTCManager:    Thread: main
+02-08 04:36:54.290 13403 13403 D WebRTCManager:    peerConnectionFactory: true
+02-08 04:36:54.290 13403 13403 D WebRTCManager:    peerConnection: true
+02-08 04:36:54.290 13403 13403 D WebRTCManager:    ✓ Audio constraints created
+02-08 04:36:54.292 13403 13403 D WebRTCManager:    audioSource created: true
+02-08 04:36:54.293 13403 13403 D WebRTCManager:    localAudioTrack created: true
+02-08 04:36:54.293 13403 13403 D WebRTCManager:    localAudioTrack enabled: true
+02-08 04:36:54.294 13403 13605 D WebRTCManager: Renegotiation needed
+02-08 04:36:54.296 13403 13403 D WebRTCManager:    Track added to peerConnection, sender: true
+02-08 04:36:54.297 13403 13403 D WebRTCManager:    Sender track: audio
+02-08 04:36:54.297 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:36:54.297 13403 13403 D WebRTCManager:    TRANSCEIVERS AFTER ADDING LOCAL TRACK:
+02-08 04:36:54.299 13403 13403 D WebRTCManager:    Transceiver[0]:
+02-08 04:36:54.300 13403 13403 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:36:54.301 13403 13403 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:36:54.301 13403 13403 D WebRTCManager:      - currentDirection: null
+02-08 04:36:54.302 13403 13403 D WebRTCManager:      - mid: null
+02-08 04:36:54.302 13403 13403 D WebRTCManager:      - sender.track: audio
+02-08 04:36:54.302 13403 13403 D WebRTCManager:      - receiver.track: audio
+02-08 04:36:54.302 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:36:54.302 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.302 13403 13403 D WebRTCManager: ✅ Local audio track created - THIS DEVICE CAN NOW TRANSMIT AUDIO
+02-08 04:36:54.302 13403 13403 D WebRTCManager: 🔄 State set to CONNECTING
+02-08 04:36:54.303 13403 13403 D WebRTCManager: 📤 Creating offer (we are initiator)
+02-08 04:36:54.305 13403 13403 D WebRTCManager: PeerConnection created (initiator: true)
+02-08 04:36:54.305 13403 13403 D CallManager: ✅ WebRTC initialized successfully, isInitiator: true
+02-08 04:36:54.306 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.306 13403 13605 D WebRTCManager: 📤 OFFER CREATED!
+02-08 04:36:54.306 13403 13605 D WebRTCManager:    type: OFFER
+02-08 04:36:54.306 13403 13605 D WebRTCManager:    description length: 1175
+02-08 04:36:54.306 13403 13605 D WebRTCManager:    hasAudio: true
+02-08 04:36:54.306 13403 13605 D WebRTCManager:    audioDirection: sendrecv
+02-08 04:36:54.306 13403 13605 D WebRTCManager:    Transceivers at offer creation:
+02-08 04:36:54.308 13403 13605 D WebRTCManager:      [0] type=MEDIA_TYPE_AUDIO, dir=SEND_RECV, mid=null
+02-08 04:36:54.308 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.311 13403 13605 D WebRTCManager: Signaling state: HAVE_LOCAL_OFFER
+02-08 04:36:54.314 13403 13605 D WebRTCManager: Local description set
+02-08 04:36:54.342 13403 13403 D CallManager: 🔊 WebRTC state changed: CONNECTING
+02-08 04:36:54.344 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.344 13403 13403 D CallManager: 🔒 tryConsumeMatch() CALLED
+02-08 04:36:54.344 13403 13403 D CallManager:    Thread: main
+02-08 04:36:54.344 13403 13403 D CallManager:    Current _matchConsumed.value: false
+02-08 04:36:54.344 13403 13403 D CallManager:    Current matchInfo: db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.344 13403 13403 D CallManager:    [INSIDE LOCK] Checking consumed state...
+02-08 04:36:54.344 13403 13403 D CallManager:    ✓ Match consumed successfully - returning true
+02-08 04:36:54.344 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:36:54.383 13403 13605 D WebRTCManager: ICE gathering state: GATHERING
+02-08 04:36:54.401 13403 13605 D WebRTCManager: Local ICE candidate: 0
+02-08 04:36:54.408 13403 13605 D WebRTCManager: Local ICE candidate: 0
+02-08 04:36:54.409 13403 13605 D WebRTCManager: Local ICE candidate: 0
+02-08 04:36:54.461 13403 13605 D WebRTCManager: Local ICE candidate: 0
+02-08 04:36:54.504 13403 13605 D WebRTCManager: Local ICE candidate: 0
+02-08 04:36:54.505 13403 13605 D WebRTCManager: Local ICE candidate: 0
+02-08 04:36:54.506 13403 13605 D WebRTCManager: Local ICE candidate: 0
+02-08 04:36:54.629 13403 13453 D CallManager: 📤 Sending OFFER for call db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.665 13403 13453 D CallManager: 📤 Sending ICE candidate for call db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.667 13403 13453 D CallManager: 📤 Sending ICE candidate for call db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.669 13403 13453 D CallManager: 📤 Sending ICE candidate for call db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.671 13403 13453 D CallManager: 📤 Sending ICE candidate for call db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.672 13403 13453 D CallManager: 📤 Sending ICE candidate for call db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.674 13403 13453 D CallManager: 📤 Sending ICE candidate for call db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:54.675 13403 13453 D CallManager: 📤 Sending ICE candidate for call db4d2252-9a3d-4785-b9cc-1d8fd58ae17c
+02-08 04:36:55.024 13403 13453 D CallManager: 📨 [MessageCollector] Received: WebRtcAnswer
+02-08 04:36:55.025 13403 13453 D CallManager: 📩 Processing message: WebRtcAnswer
+02-08 04:36:55.025 13403 13453 D CallManager: 📥 Received WebRTC ANSWER, sdp length: 1135
+02-08 04:36:55.025 13403 13453 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.025 13403 13453 D WebRTCManager: 📥 setRemoteDescription CALLED
+02-08 04:36:55.025 13403 13453 D WebRTCManager:    Thread: DefaultDispatcher-worker-1
+02-08 04:36:55.025 13403 13453 D WebRTCManager:    isAnswer: true
+02-08 04:36:55.025 13403 13453 D WebRTCManager:    sdp.type: ANSWER
+02-08 04:36:55.025 13403 13453 D WebRTCManager:    sdp.description length: 1135
+02-08 04:36:55.025 13403 13453 D WebRTCManager:    hasRemoteDescriptionBeenSet: false
+02-08 04:36:55.025 13403 13453 D WebRTCManager:    peerConnection: true
+02-08 04:36:55.025 13403 13453 D WebRTCManager:    ✓ Set hasRemoteDescriptionBeenSet = true
+02-08 04:36:55.027 13403 13605 D WebRTCManager: Signaling state: STABLE
+02-08 04:36:55.090 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.091 13403 13605 D WebRTCManager: 🔗 ICE connection state: CHECKING
+02-08 04:36:55.091 13403 13605 D WebRTCManager:    🔍 ICE checking - attempting to connect...
+02-08 04:36:55.091 13403 13653 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.091 13403 13653 D WebRTCManager: 🔊 AUDIO TRACK STARTED - Remote audio playback beginning!
+02-08 04:36:55.091 13403 13653 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.091 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.092 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.092 13403 13605 D WebRTCManager: 🔊 onTrack - TRANSCEIVER RECEIVED!
+02-08 04:36:55.092 13403 13605 D WebRTCManager:    Thread: signaling_threa - 13605
+02-08 04:36:55.092 13403 13605 D WebRTCManager:    transceiver: true
+02-08 04:36:55.092 13403 13605 D WebRTCManager:    mediaType: MEDIA_TYPE_AUDIO
+02-08 04:36:55.092 13403 13605 D WebRTCManager:    direction: SEND_RECV
+02-08 04:36:55.092 13403 13605 D WebRTCManager:    mid: 0
+02-08 04:36:55.093 13403 13605 D WebRTCManager:    currentDirection: SEND_RECV
+02-08 04:36:55.093 13403 13605 D WebRTCManager:    isStopped: false
+02-08 04:36:55.093 13403 13605 D WebRTCManager:    This is an AUDIO transceiver
+02-08 04:36:55.094 13403 13605 D WebRTCManager:    Receiver track: kind=audio, id=8439b83b-5765-4dd0-859e-52ec15b7ed13, enabled=true
+02-08 04:36:55.094 13403 13605 D WebRTCManager:    ✅ Remote audio track from transceiver ENABLED!
+02-08 04:36:55.094 13403 13605 D WebRTCManager:    Track state: LIVE
+02-08 04:36:55.094 13403 13605 D WebRTCManager:    Track enabled: true
+02-08 04:36:55.095 13403 13605 D WebRTCManager:    Sender track (local): kind=audio, id=audio0, enabled=true
+02-08 04:36:55.095 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.095 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.096 13403 13605 D WebRTCManager: 🔊 onAddTrack - REMOTE TRACK ADDED!
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    Thread: signaling_threa - 13605
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    receiver: true
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    receiver.track: org.webrtc.AudioTrack@a502410
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    receiver.track kind: audio
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    receiver.track id: 8439b83b-5765-4dd0-859e-52ec15b7ed13
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    receiver.track enabled: true
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    streams count: 1
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    Processing track: kind=audio, id=8439b83b-5765-4dd0-859e-52ec15b7ed13
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    ✅ Remote audio track ENABLED for playback!
+02-08 04:36:55.096 13403 13605 D WebRTCManager:    remoteAudioTrack.id: 8439b83b-5765-4dd0-859e-52ec15b7ed13
+02-08 04:36:55.097 13403 13605 D WebRTCManager:    remoteAudioTrack.enabled: true
+02-08 04:36:55.097 13403 13605 D WebRTCManager:    remoteAudioTrack.state: LIVE
+02-08 04:36:55.097 13403 13605 D WebRTCManager:    Current audio state:
+02-08 04:36:55.098 13403 13605 D WebRTCManager:    - Mode: 3
+02-08 04:36:55.098 13403 13605 D WebRTCManager:    - Speakerphone: false
+02-08 04:36:55.099 13403 13605 D WebRTCManager:    - Voice call volume: 9
+02-08 04:36:55.100 13403 13605 D WebRTCManager:    Stream ID: stream0
+02-08 04:36:55.100 13403 13605 D WebRTCManager:    Audio tracks in stream: 1
+02-08 04:36:55.100 13403 13605 D WebRTCManager:    Audio track [0]: id=8439b83b-5765-4dd0-859e-52ec15b7ed13, enabled=true
+02-08 04:36:55.100 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.100 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.100 13403 13605 D WebRTCManager: 📥 onAddStream - REMOTE STREAM ADDED!
+02-08 04:36:55.101 13403 13605 D WebRTCManager:    stream: true
+02-08 04:36:55.101 13403 13605 D WebRTCManager:    stream.id: stream0
+02-08 04:36:55.101 13403 13605 D WebRTCManager:    audioTracks count: 1
+02-08 04:36:55.101 13403 13605 D WebRTCManager:    videoTracks count: 0
+02-08 04:36:55.101 13403 13605 D WebRTCManager:    Audio track[0]: id=8439b83b-5765-4dd0-859e-52ec15b7ed13, enabled=true, state=LIVE
+02-08 04:36:55.101 13403 13605 D WebRTCManager:    Audio track[0] ENABLED: true
+02-08 04:36:55.102 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.102 13403 13605 D WebRTCManager:    ✅ Remote description set successfully!
+02-08 04:36:55.102 13403 13605 D WebRTCManager:    isAnswer: true
+02-08 04:36:55.102 13403 13453 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.103 13403 13453 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:36:55.103 13403 13453 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:36:55.103 13403 13453 D CallManager: 📥 Received ICE candidate: candidate:3110760202 1 udp 2122260223 192.168.1.18...
+02-08 04:36:55.104 13403 13453 D WebRTCManager: Remote ICE candidate added
+02-08 04:36:55.137 13403 13457 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:36:55.137 13403 13457 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:36:55.137 13403 13457 D CallManager: 📥 Received ICE candidate: candidate:2896757905 1 udp 2121998079 127.0.0.1 56...
+02-08 04:36:55.138 13403 13457 D WebRTCManager: Remote ICE candidate added
+02-08 04:36:55.138 13403 13457 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:36:55.139 13403 13457 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:36:55.139 13403 13457 D CallManager: 📥 Received ICE candidate: candidate:3179615769 1 udp 2122071295 ::1 47899 ty...
+02-08 04:36:55.139 13403 13457 D WebRTCManager: Remote ICE candidate added
+02-08 04:36:55.139 13403 13457 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:36:55.139 13403 13457 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:36:55.139 13403 13457 D CallManager: 📥 Received ICE candidate: candidate:1380798390 1 udp 1686052607 154.159.237....
+02-08 04:36:55.140 13403 13457 D WebRTCManager: Remote ICE candidate added
+02-08 04:36:55.221 13403 13456 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:36:55.222 13403 13456 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:36:55.222 13403 13456 D CallManager: 📥 Received ICE candidate: candidate:1485952258 1 tcp 1518214911 10.43.174.17...
+02-08 04:36:55.223 13403 13456 D WebRTCManager: Remote ICE candidate added
+02-08 04:36:55.223 13403 13456 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:36:55.223 13403 13456 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:36:55.224 13403 13456 D CallManager: 📥 Received ICE candidate: candidate:889345654 1 tcp 1518149375 10.0.132.80 9...
+02-08 04:36:55.224 13403 13456 D WebRTCManager: Remote ICE candidate added
+02-08 04:36:55.225 13403 13456 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:36:55.225 13403 13456 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:36:55.225 13403 13456 D CallManager: 📥 Received ICE candidate: candidate:1375981573 1 tcp 1518018303 127.0.0.1 47...
+02-08 04:36:55.226 13403 13456 D WebRTCManager: Remote ICE candidate added
+02-08 04:36:55.226 13403 13456 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:36:55.227 13403 13456 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:36:55.227 13403 13456 D CallManager: 📥 Received ICE candidate: candidate:1127203469 1 tcp 1518091519 ::1 39527 ty...
+02-08 04:36:55.227 13403 13456 D WebRTCManager: Remote ICE candidate added
+02-08 04:36:55.359 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.359 13403 13605 D WebRTCManager: 🔗 ICE connection state: CONNECTED
+02-08 04:36:55.359 13403 13605 D WebRTCManager:    ✅ ICE CONNECTED - WebRTC call established!
+02-08 04:36:55.360 13403 13605 D WebRTCManager:    🔊 Re-applying audio configuration (WebRTC resets it)...
+02-08 04:36:55.361 13403 13605 D WebRTCManager:    forceAudioModeForCall: current mode = 3
+02-08 04:36:55.362 13403 13605 D WebRTCManager:    ✅ Audio mode confirmed: MODE_IN_COMMUNICATION
+02-08 04:36:55.362 13403 13605 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:36:55.362 13403 13605 D WebRTCManager:    AUDIO VERIFICATION ON ICE CONNECTED:
+02-08 04:36:55.362 13403 13605 D WebRTCManager:    Local audio track: true
+02-08 04:36:55.362 13403 13605 D WebRTCManager:    Local audio enabled: true
+02-08 04:36:55.363 13403 13605 D WebRTCManager:    Remote audio track: true
+02-08 04:36:55.363 13403 13605 D WebRTCManager:    Remote audio enabled: true
+02-08 04:36:55.363 13403 13605 D WebRTCManager:    Transceiver[0]:
+02-08 04:36:55.363 13403 13605 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:36:55.363 13403 13605 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:36:55.364 13403 13605 D WebRTCManager:      - currentDirection: SEND_RECV
+02-08 04:36:55.364 13403 13605 D WebRTCManager:      - mid: 0
+02-08 04:36:55.364 13403 13605 D WebRTCManager:      - Receiver track: kind=audio, enabled=true, state=LIVE
+02-08 04:36:55.364 13403 13605 D WebRTCManager:      - Sender track: kind=audio, enabled=true, state=LIVE
+02-08 04:36:55.364 13403 13605 D WebRTCManager:    AudioManager state AFTER force:
+02-08 04:36:55.365 13403 13605 D WebRTCManager:    - Mode: 3 (3=IN_COMMUNICATION)
+02-08 04:36:55.366 13403 13605 D WebRTCManager:    - Speakerphone: false
+02-08 04:36:55.366 13403 13605 D WebRTCManager:    - Mic muted: false
+02-08 04:36:55.367 13403 13605 D WebRTCManager:    - Voice volume: 9
+02-08 04:36:55.367 13403 13605 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:36:55.367 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.410 13403 13403 D CallManager: 🔊 WebRTC state changed: CONNECTED
+02-08 04:36:55.410 13403 13403 D CallManager: 🔊 WebRTC CONNECTED - verifying audio setup...
+02-08 04:36:55.459 13403 13659 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.459 13403 13659 D WebRTCManager: 🎤 AUDIO RECORD STARTED - Microphone capture beginning!
+02-08 04:36:55.459 13403 13659 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.941 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.941 13403 13403 D WebRTCManager: 🔍 VERIFYING AUDIO SETUP
+02-08 04:36:55.941 13403 13403 D WebRTCManager:    ✅ Local audio track OK
+02-08 04:36:55.941 13403 13403 D WebRTCManager:    ✅ Remote audio track OK
+02-08 04:36:55.943 13403 13403 D WebRTCManager:    ✅ Audio mode OK
+02-08 04:36:55.944 13403 13403 D WebRTCManager:    ✅ Voice call volume OK: 9
+02-08 04:36:55.944 13403 13403 D WebRTCManager:    Result: ✅ AUDIO SETUP VALID
+02-08 04:36:55.944 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.944 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:36:55.944 13403 13403 D WebRTCManager: 📊 WEBRTC STATS DEBUG
+02-08 04:36:55.944 13403 13403 D WebRTCManager:    State: CONNECTED
+02-08 04:36:55.945 13403 13403 D WebRTCManager:    Local audio track: audio0, enabled=true
+02-08 04:36:55.945 13403 13403 D WebRTCManager:    Remote audio track: 8439b83b-5765-4dd0-859e-52ec15b7ed13, enabled=true
+02-08 04:36:55.945 13403 13403 D WebRTCManager:    Muted: false
+02-08 04:36:55.946 13403 13403 D WebRTCManager:    Transceiver[0]:
+02-08 04:36:55.946 13403 13403 D WebRTCManager:      - Type: MEDIA_TYPE_AUDIO
+02-08 04:36:55.946 13403 13403 D WebRTCManager:      - Direction: SEND_RECV
+02-08 04:36:55.946 13403 13403 D WebRTCManager:      - Current direction: SEND_RECV
+02-08 04:36:55.946 13403 13403 D WebRTCManager:      - Stopped: false
+02-08 04:36:55.946 13403 13403 D WebRTCManager:      - Sender track: audio, enabled=true
+02-08 04:36:55.946 13403 13403 D WebRTCManager:      - Receiver track: audio, enabled=true
+02-08 04:36:55.946 13403 13403 D WebRTCManager:    AudioManager:
+02-08 04:36:55.947 13403 13403 D WebRTCManager:      - Mode: 3
+02-08 04:36:55.947 13403 13403 D WebRTCManager:      - Speakerphone: false
+02-08 04:36:55.948 13403 13403 D WebRTCManager:      - Microphone muted: false
+02-08 04:36:55.948 13403 13403 D WebRTCManager:      - Voice call volume: 9
+02-08 04:36:55.949 13403 13403 D WebRTCManager:      - Music volume: 13
+02-08 04:36:55.949 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:16.709 13403 13453 D CallManager: 📨 [MessageCollector] Received: CallEnded
+02-08 04:37:16.709 13403 13453 D CallManager: 📩 Processing message: CallEnded
+02-08 04:37:16.709 13403 13453 D CallManager: 📞 Call ended: db4d2252-9a3d-4785-b9cc-1d8fd58ae17c, reason: ended
+02-08 04:37:16.715 13403 13453 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:16.715 13403 13453 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:37:16.715 13403 13453 D WebRTCManager:    Final state:
+02-08 04:37:16.715 13403 13453 D WebRTCManager:    - Local audio track: true, enabled=true
+02-08 04:37:16.715 13403 13453 D WebRTCManager:    - Remote audio track: true, enabled=true
+02-08 04:37:16.716 13403 13453 D WebRTCManager:    - Connection state: CONNECTED
+02-08 04:37:16.725 13403 13453 D WebRTCManager: Audio configuration restored
+02-08 04:37:16.980 13403 13659 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:16.980 13403 13659 D WebRTCManager: 🎤 AUDIO RECORD STOPPED - Microphone capture ended!
+02-08 04:37:16.980 13403 13659 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:16.988 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:16.988 13403 13605 D WebRTCManager: 🔗 ICE connection state: DISCONNECTED
+02-08 04:37:16.988 13403 13605 W WebRTCManager:    ⚠️ ICE DISCONNECTED
+02-08 04:37:16.988 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:16.990 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:16.991 13403 13605 D WebRTCManager: 🔗 ICE connection state: CLOSED
+02-08 04:37:16.991 13403 13605 D WebRTCManager:    🚫 ICE CLOSED
+02-08 04:37:16.991 13403 13605 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:16.991 13403 13605 D WebRTCManager: Signaling state: CLOSED
+02-08 04:37:17.002 13403 13604 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:17.002 13403 13604 D WebRTCManager: 🔇 AUDIO TRACK STOPPED - Remote audio playback ended!
+02-08 04:37:17.002 13403 13604 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:17.019 13403 13453 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:34.279 13403 13453 D CallManager: 📨 [MessageCollector] Received: IncomingPreview
+02-08 04:37:34.279 13403 13453 D CallManager: 📩 Processing message: IncomingPreview
+02-08 04:37:34.280 13403 13453 D CallManager: 📬 Incoming preview: topic=Just Talking, text=up and about 
+02-08 04:37:37.397 13403 13403 D CallManager: 👆 acceptPreview() called - shareId: 79637c24-10c5-4c18-9e20-5a18cdcb8258
+02-08 04:37:37.397 13403 13403 D CallManager:    Current thread: main
+02-08 04:37:37.397 13403 13403 D CallManager:    Stored call params: duration=10, topic=Just Talking
+02-08 04:37:37.398 13403 13403 D CallManager:    Sent preview_accept to server
+02-08 04:37:37.398 13403 13403 D CallManager:    Cleared incomingPreview
+02-08 04:37:37.466 13403 13453 D CallManager: 📨 [MessageCollector] Received: MatchMade
+02-08 04:37:37.466 13403 13453 D CallManager: 📩 Processing message: MatchMade
+02-08 04:37:37.466 13403 13453 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.466 13403 13453 D CallManager: 🎯 MATCH MADE RECEIVED!
+02-08 04:37:37.466 13403 13453 D CallManager:    Thread: DefaultDispatcher-worker-1
+02-08 04:37:37.466 13403 13453 D CallManager:    Call ID: 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:37.466 13403 13453 D CallManager:    Role: listener
+02-08 04:37:37.466 13403 13453 D CallManager:    Duration: 10 min
+02-08 04:37:37.466 13403 13453 D CallManager:    Topic: Just Talking
+02-08 04:37:37.466 13403 13453 D CallManager:    Intent: up and about 
+02-08 04:37:37.466 13403 13453 D CallManager:    TURN servers: 2
+02-08 04:37:37.466 13403 13453 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.466 13403 13453 D CallManager:    Step 1: Setting currentRole to 'listener'
+02-08 04:37:37.466 13403 13453 D CallManager:    ✓ currentRole is now: listener
+02-08 04:37:37.466 13403 13453 D CallManager:    Step 2: Setting matchConsumed to false
+02-08 04:37:37.466 13403 13453 D CallManager:    Step 3: Setting currentCallId to '156450b1-d364-4080-9c51-ab1e30bc1b7a'
+02-08 04:37:37.466 13403 13453 D CallManager:    Step 4: Clearing pendingShareId and incomingPreview
+02-08 04:37:37.466 13403 13453 D CallManager:    Step 5: Updating call parameters
+02-08 04:37:37.466 13403 13453 D CallManager:    Step 6: Setting matchInfo (THIS TRIGGERS NAVIGATION)
+02-08 04:37:37.466 13403 13453 D CallManager:    ✓ matchInfo is now set
+02-08 04:37:37.466 13403 13453 D CallManager: 📞 All state updated, now initializing WebRTC...
+02-08 04:37:37.466 13403 13453 D CallManager:    TURN: [turn:localhost:3478]
+02-08 04:37:37.466 13403 13453 D CallManager:    TURN: [stun:stun.l.google.com:19302]
+02-08 04:37:37.466 13403 13453 D CallManager: 🎬 Step 7: Calling initializeWebRTC(isInitiator=false)
+02-08 04:37:37.466 13403 13453 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.466 13403 13453 D CallManager: 🎬 initializeWebRTC CALLED
+02-08 04:37:37.466 13403 13453 D CallManager:    Thread: DefaultDispatcher-worker-1
+02-08 04:37:37.467 13403 13453 D CallManager:    isInitiator: false
+02-08 04:37:37.467 13403 13453 D CallManager:    turnServers: 2
+02-08 04:37:37.467 13403 13453 D CallManager:    callId: 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:37.467 13403 13453 D CallManager:    isWebRTCInitializing: false
+02-08 04:37:37.467 13403 13453 D CallManager:    lastInitializedCallId: null
+02-08 04:37:37.467 13403 13453 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.467 13403 13453 D CallManager:    Set isWebRTCInitializing = true
+02-08 04:37:37.467 13403 13453 D CallManager:    Cancelled previous WebRTC job
+02-08 04:37:37.467 13403 13453 D CallManager:    Launching coroutine on Main thread...
+02-08 04:37:37.467 13403 13453 D CallManager:    ✓ initializeWebRTC launched
+02-08 04:37:37.483 13403 13403 D CallManager: 🔧 initializeWebRTC - NOW ON MAIN THREAD
+02-08 04:37:37.483 13403 13403 D CallManager:    Thread: main
+02-08 04:37:37.483 13403 13403 D CallManager: 🧹 Disposing existing WebRTC manager
+02-08 04:37:37.483 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.483 13403 13403 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:37:37.483 13403 13403 D WebRTCManager:    Final state:
+02-08 04:37:37.483 13403 13403 D WebRTCManager:    - Local audio track: false, enabled=null
+02-08 04:37:37.483 13403 13403 D WebRTCManager:    - Remote audio track: false, enabled=null
+02-08 04:37:37.483 13403 13403 D WebRTCManager:    - Connection state: IDLE
+02-08 04:37:37.485 13403 13403 D WebRTCManager: Audio configuration restored
+02-08 04:37:37.485 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.487 13403 13403 D WebRTCManager: WebRTCManager disposed
+02-08 04:37:37.487 13403 13403 D CallManager: 🆕 Creating new WebRTCManager...
+02-08 04:37:37.487 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.487 13403 13403 D WebRTCManager: 🆕 WebRTCManager CONSTRUCTOR CALLED
+02-08 04:37:37.487 13403 13403 D WebRTCManager:    Thread: main
+02-08 04:37:37.487 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.487 13403 13403 D WebRTCManager: PeerConnectionFactory already initialized
+02-08 04:37:37.487 13403 13403 D WebRTCManager: 🏭 initializePeerConnectionFactory starting...
+02-08 04:37:37.487 13403 13403 D WebRTCManager:    ⚠️ Voice anonymization TEMPORARILY DISABLED for debugging
+02-08 04:37:37.491 13403 13403 D WebRTCManager:    ✅ JavaAudioDeviceModule created
+02-08 04:37:37.491 13403 13403 D WebRTCManager:       - Hardware AEC enabled: true
+02-08 04:37:37.491 13403 13403 D WebRTCManager:       - Hardware NS enabled: true
+02-08 04:37:37.497 13403 13403 D WebRTCManager:    ✅ PeerConnectionFactory created (standard audio, no voice processing)
+02-08 04:37:37.497 13403 13403 D WebRTCManager:    ✓ WebRTCManager constructor completed
+02-08 04:37:37.499 13403 13403 D CallManager: 🔌 Creating peer connection...
+02-08 04:37:37.499 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.499 13403 13403 D WebRTCManager: 🔌 createPeerConnection CALLED
+02-08 04:37:37.499 13403 13403 D WebRTCManager:    isInitiator: false
+02-08 04:37:37.499 13403 13403 D WebRTCManager:    Role: LISTENER (will wait for offer)
+02-08 04:37:37.499 13403 13403 D WebRTCManager:    TURN servers: 2
+02-08 04:37:37.499 13403 13403 D WebRTCManager:    - [turn:localhost:3478]
+02-08 04:37:37.499 13403 13403 D WebRTCManager:    - [stun:stun.l.google.com:19302]
+02-08 04:37:37.499 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.499 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.499 13403 13403 D WebRTCManager: 🔊 configureAudioForCall CALLED
+02-08 04:37:37.500 13403 13403 D WebRTCManager:    Saved audio mode: 0, speakerphone: false
+02-08 04:37:37.501 13403 13403 D WebRTCManager:    Set mode to MODE_IN_COMMUNICATION
+02-08 04:37:37.502 13403 13403 D WebRTCManager:    Set speakerphone OFF (prevents echo)
+02-08 04:37:37.710 13403 13403 D WebRTCManager:    Set VOICE_CALL volume to 9 / 11
+02-08 04:37:37.741 13403 13403 D WebRTCManager:    Set MUSIC volume to 13 / 15 (fallback)
+02-08 04:37:37.745 13403 13403 D WebRTCManager:    Audio focus request result: 1 (1=granted)
+02-08 04:37:37.745 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:37:37.745 13403 13403 D WebRTCManager:    FINAL AUDIO STATE:
+02-08 04:37:37.747 13403 13403 D WebRTCManager:    - Mode: 3 (3=MODE_IN_COMMUNICATION)
+02-08 04:37:37.748 13403 13403 D WebRTCManager:    - Speakerphone: false
+02-08 04:37:37.749 13403 13403 D WebRTCManager:    - Microphone muted: false
+02-08 04:37:37.751 13403 13403 D WebRTCManager:    - Music active: false
+02-08 04:37:37.840 13403 13403 D WebRTCManager:    - Voice call volume: 9
+02-08 04:37:37.840 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.840 13403 13403 D WebRTCManager:    ICE servers built: 3
+02-08 04:37:37.845 13403 13403 D WebRTCManager: ✅ PeerConnection created
+02-08 04:37:37.845 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.845 13403 13403 D WebRTCManager: 🎤 createLocalAudioTrack CALLED
+02-08 04:37:37.845 13403 13403 D WebRTCManager:    Thread: main
+02-08 04:37:37.845 13403 13403 D WebRTCManager:    peerConnectionFactory: true
+02-08 04:37:37.845 13403 13403 D WebRTCManager:    peerConnection: true
+02-08 04:37:37.845 13403 13403 D WebRTCManager:    ✓ Audio constraints created
+02-08 04:37:37.846 13403 13403 D WebRTCManager:    audioSource created: true
+02-08 04:37:37.846 13403 13403 D WebRTCManager:    localAudioTrack created: true
+02-08 04:37:37.847 13403 13403 D WebRTCManager:    localAudioTrack enabled: true
+02-08 04:37:37.848 13403 13762 D WebRTCManager: Renegotiation needed
+02-08 04:37:37.849 13403 13403 D WebRTCManager:    Track added to peerConnection, sender: true
+02-08 04:37:37.849 13403 13403 D WebRTCManager:    Sender track: audio
+02-08 04:37:37.849 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:37:37.849 13403 13403 D WebRTCManager:    TRANSCEIVERS AFTER ADDING LOCAL TRACK:
+02-08 04:37:37.850 13403 13403 D WebRTCManager:    Transceiver[0]:
+02-08 04:37:37.851 13403 13403 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:37:37.851 13403 13403 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:37:37.851 13403 13403 D WebRTCManager:      - currentDirection: null
+02-08 04:37:37.852 13403 13403 D WebRTCManager:      - mid: null
+02-08 04:37:37.852 13403 13403 D WebRTCManager:      - sender.track: audio
+02-08 04:37:37.852 13403 13403 D WebRTCManager:      - receiver.track: audio
+02-08 04:37:37.852 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:37:37.852 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.852 13403 13403 D WebRTCManager: ✅ Local audio track created - THIS DEVICE CAN NOW TRANSMIT AUDIO
+02-08 04:37:37.852 13403 13403 D WebRTCManager: 🔄 State set to CONNECTING
+02-08 04:37:37.853 13403 13403 D WebRTCManager: PeerConnection created (initiator: false)
+02-08 04:37:37.853 13403 13403 D CallManager: ✅ WebRTC initialized successfully, isInitiator: false
+02-08 04:37:37.875 13403 13403 D CallManager: 🔊 WebRTC state changed: CONNECTING
+02-08 04:37:37.887 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.887 13403 13403 D CallManager: 🔒 tryConsumeMatch() CALLED
+02-08 04:37:37.887 13403 13403 D CallManager:    Thread: main
+02-08 04:37:37.887 13403 13403 D CallManager:    Current _matchConsumed.value: false
+02-08 04:37:37.887 13403 13403 D CallManager:    Current matchInfo: 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:37.887 13403 13403 D CallManager:    [INSIDE LOCK] Checking consumed state...
+02-08 04:37:37.887 13403 13403 D CallManager:    ✓ Match consumed successfully - returning true
+02-08 04:37:37.887 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.934 13403 13456 D CallManager: 📨 [MessageCollector] Received: WebRtcOffer
+02-08 04:37:37.934 13403 13456 D CallManager: 📩 Processing message: WebRtcOffer
+02-08 04:37:37.934 13403 13456 D CallManager: 📥 Received WebRTC OFFER, sdp length: 1173
+02-08 04:37:37.934 13403 13456 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.934 13403 13456 D WebRTCManager: 📥 setRemoteDescription CALLED
+02-08 04:37:37.934 13403 13456 D WebRTCManager:    Thread: DefaultDispatcher-worker-4
+02-08 04:37:37.934 13403 13456 D WebRTCManager:    isAnswer: false
+02-08 04:37:37.934 13403 13456 D WebRTCManager:    sdp.type: OFFER
+02-08 04:37:37.934 13403 13456 D WebRTCManager:    sdp.description length: 1173
+02-08 04:37:37.934 13403 13456 D WebRTCManager:    hasRemoteDescriptionBeenSet: false
+02-08 04:37:37.934 13403 13456 D WebRTCManager:    peerConnection: true
+02-08 04:37:37.934 13403 13456 D WebRTCManager:    ✓ Set hasRemoteDescriptionBeenSet = true
+02-08 04:37:37.936 13403 13762 D WebRTCManager: Signaling state: HAVE_REMOTE_OFFER
+02-08 04:37:37.938 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.938 13403 13762 D WebRTCManager: 🔊 onTrack - TRANSCEIVER RECEIVED!
+02-08 04:37:37.938 13403 13762 D WebRTCManager:    Thread: signaling_threa - 13762
+02-08 04:37:37.938 13403 13762 D WebRTCManager:    transceiver: true
+02-08 04:37:37.938 13403 13762 D WebRTCManager:    mediaType: MEDIA_TYPE_AUDIO
+02-08 04:37:37.938 13403 13762 D WebRTCManager:    direction: SEND_RECV
+02-08 04:37:37.939 13403 13762 D WebRTCManager:    mid: 0
+02-08 04:37:37.939 13403 13762 D WebRTCManager:    currentDirection: null
+02-08 04:37:37.939 13403 13762 D WebRTCManager:    isStopped: false
+02-08 04:37:37.939 13403 13762 D WebRTCManager:    This is an AUDIO transceiver
+02-08 04:37:37.939 13403 13762 D WebRTCManager:    Receiver track: kind=audio, id=8f184831-fb79-4344-b489-4d9f61ee1b13, enabled=true
+02-08 04:37:37.939 13403 13762 D WebRTCManager:    ✅ Remote audio track from transceiver ENABLED!
+02-08 04:37:37.939 13403 13762 D WebRTCManager:    Track state: LIVE
+02-08 04:37:37.939 13403 13762 D WebRTCManager:    Track enabled: true
+02-08 04:37:37.939 13403 13762 D WebRTCManager:    Sender track (local): kind=audio, id=audio0, enabled=true
+02-08 04:37:37.940 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.940 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.940 13403 13762 D WebRTCManager: 🔊 onAddTrack - REMOTE TRACK ADDED!
+02-08 04:37:37.940 13403 13762 D WebRTCManager:    Thread: signaling_threa - 13762
+02-08 04:37:37.940 13403 13762 D WebRTCManager:    receiver: true
+02-08 04:37:37.940 13403 13762 D WebRTCManager:    receiver.track: org.webrtc.AudioTrack@edb44d8
+02-08 04:37:37.940 13403 13762 D WebRTCManager:    receiver.track kind: audio
+02-08 04:37:37.940 13403 13762 D WebRTCManager:    receiver.track id: 8f184831-fb79-4344-b489-4d9f61ee1b13
+02-08 04:37:37.941 13403 13762 D WebRTCManager:    receiver.track enabled: true
+02-08 04:37:37.941 13403 13762 D WebRTCManager:    streams count: 1
+02-08 04:37:37.941 13403 13762 D WebRTCManager:    Processing track: kind=audio, id=8f184831-fb79-4344-b489-4d9f61ee1b13
+02-08 04:37:37.941 13403 13762 D WebRTCManager:    ✅ Remote audio track ENABLED for playback!
+02-08 04:37:37.941 13403 13762 D WebRTCManager:    remoteAudioTrack.id: 8f184831-fb79-4344-b489-4d9f61ee1b13
+02-08 04:37:37.941 13403 13762 D WebRTCManager:    remoteAudioTrack.enabled: true
+02-08 04:37:37.941 13403 13762 D WebRTCManager:    remoteAudioTrack.state: LIVE
+02-08 04:37:37.941 13403 13762 D WebRTCManager:    Current audio state:
+02-08 04:37:37.943 13403 13762 D WebRTCManager:    - Mode: 3
+02-08 04:37:37.944 13403 13762 D WebRTCManager:    - Speakerphone: false
+02-08 04:37:37.950 13403 13762 D WebRTCManager:    - Voice call volume: 9
+02-08 04:37:37.950 13403 13762 D WebRTCManager:    Stream ID: stream0
+02-08 04:37:37.950 13403 13762 D WebRTCManager:    Audio tracks in stream: 1
+02-08 04:37:37.950 13403 13762 D WebRTCManager:    Audio track [0]: id=8f184831-fb79-4344-b489-4d9f61ee1b13, enabled=true
+02-08 04:37:37.950 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.950 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.951 13403 13762 D WebRTCManager: 📥 onAddStream - REMOTE STREAM ADDED!
+02-08 04:37:37.951 13403 13762 D WebRTCManager:    stream: true
+02-08 04:37:37.951 13403 13762 D WebRTCManager:    stream.id: stream0
+02-08 04:37:37.951 13403 13762 D WebRTCManager:    audioTracks count: 1
+02-08 04:37:37.951 13403 13762 D WebRTCManager:    videoTracks count: 0
+02-08 04:37:37.951 13403 13762 D WebRTCManager:    Audio track[0]: id=8f184831-fb79-4344-b489-4d9f61ee1b13, enabled=true, state=LIVE
+02-08 04:37:37.952 13403 13762 D WebRTCManager:    Audio track[0] ENABLED: true
+02-08 04:37:37.952 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.952 13403 13762 D WebRTCManager:    ✅ Remote description set successfully!
+02-08 04:37:37.952 13403 13762 D WebRTCManager:    isAnswer: false
+02-08 04:37:37.952 13403 13762 D WebRTCManager:    📤 Creating answer...
+02-08 04:37:37.954 13403 13456 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.955 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.955 13403 13762 D WebRTCManager: 📤 ANSWER CREATED!
+02-08 04:37:37.955 13403 13762 D WebRTCManager:    type: ANSWER
+02-08 04:37:37.955 13403 13762 D WebRTCManager:    description length: 1135
+02-08 04:37:37.955 13403 13762 D WebRTCManager:    hasAudio: true
+02-08 04:37:37.955 13403 13762 D WebRTCManager:    audioDirection: sendrecv
+02-08 04:37:37.955 13403 13762 D WebRTCManager:    Transceivers at answer creation:
+02-08 04:37:37.956 13403 13762 D WebRTCManager:      [0] type=MEDIA_TYPE_AUDIO, dir=SEND_RECV, mid=0
+02-08 04:37:37.956 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:37.956 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:37:37.956 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:37:37.957 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:4231857362 1 udp 2122260223 192.168.1.18...
+02-08 04:37:37.958 13403 13762 D WebRTCManager: Signaling state: STABLE
+02-08 04:37:38.009 13403 13771 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.009 13403 13771 D WebRTCManager: 🔊 AUDIO TRACK STARTED - Remote audio playback beginning!
+02-08 04:37:38.009 13403 13771 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.010 13403 13762 D WebRTCManager: Local description (answer) set
+02-08 04:37:38.036 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:37:38.036 13403 13762 D WebRTCManager: ICE gathering state: GATHERING
+02-08 04:37:38.037 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:37:38.037 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:37:38.037 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:3850098319 1 udp 2121998079 127.0.0.1 50...
+02-08 04:37:38.038 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:37:38.038 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:37:38.039 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:37:38.039 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:3361866324 1 udp 2122071295 ::1 45900 ty...
+02-08 04:37:38.039 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:37:38.040 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:37:38.040 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:37:38.040 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:3576399639 1 udp 1686052607 154.159.237....
+02-08 04:37:38.041 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:37:38.041 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:37:38.042 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:37:38.042 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:153031833 1 tcp 1518214911 10.43.174.172...
+02-08 04:37:38.042 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:37:38.043 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:37:38.043 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:37:38.043 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:1199082380 1 tcp 1518149375 10.0.132.80 ...
+02-08 04:37:38.044 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:37:38.044 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:37:38.044 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:37:38.044 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:2612278295 1 tcp 1518018303 127.0.0.1 59...
+02-08 04:37:38.045 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:37:38.045 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:37:38.045 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:37:38.045 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:3064848588 1 tcp 1518091519 ::1 42215 ty...
+02-08 04:37:38.045 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:37:38.050 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.050 13403 13762 D WebRTCManager: 🔗 ICE connection state: CHECKING
+02-08 04:37:38.050 13403 13762 D WebRTCManager:    🔍 ICE checking - attempting to connect...
+02-08 04:37:38.050 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.061 13403 13762 D WebRTCManager: Local ICE candidate: 0
+02-08 04:37:38.061 13403 13762 D WebRTCManager: Local ICE candidate: 0
+02-08 04:37:38.062 13403 13762 D WebRTCManager: Local ICE candidate: 0
+02-08 04:37:38.072 13403 13454 D CallManager: 📤 Sending ANSWER for call 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:38.077 13403 13454 D CallManager: 📤 Sending ICE candidate for call 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:38.079 13403 13454 D CallManager: 📤 Sending ICE candidate for call 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:38.080 13403 13454 D CallManager: 📤 Sending ICE candidate for call 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:38.160 13403 13762 D WebRTCManager: Local ICE candidate: 0
+02-08 04:37:38.166 13403 13454 D CallManager: 📤 Sending ICE candidate for call 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:38.166 13403 13762 D WebRTCManager: Local ICE candidate: 0
+02-08 04:37:38.167 13403 13454 D CallManager: 📤 Sending ICE candidate for call 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:38.168 13403 13762 D WebRTCManager: Local ICE candidate: 0
+02-08 04:37:38.170 13403 13454 D CallManager: 📤 Sending ICE candidate for call 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:38.170 13403 13762 D WebRTCManager: Local ICE candidate: 0
+02-08 04:37:38.173 13403 13454 D CallManager: 📤 Sending ICE candidate for call 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:37:38.344 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.344 13403 13762 D WebRTCManager: 🔗 ICE connection state: CONNECTED
+02-08 04:37:38.344 13403 13762 D WebRTCManager:    ✅ ICE CONNECTED - WebRTC call established!
+02-08 04:37:38.344 13403 13762 D WebRTCManager:    🔊 Re-applying audio configuration (WebRTC resets it)...
+02-08 04:37:38.346 13403 13762 D WebRTCManager:    forceAudioModeForCall: current mode = 3
+02-08 04:37:38.348 13403 13762 D WebRTCManager:    ✅ Audio mode confirmed: MODE_IN_COMMUNICATION
+02-08 04:37:38.348 13403 13762 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:37:38.348 13403 13762 D WebRTCManager:    AUDIO VERIFICATION ON ICE CONNECTED:
+02-08 04:37:38.348 13403 13762 D WebRTCManager:    Local audio track: true
+02-08 04:37:38.348 13403 13762 D WebRTCManager:    Local audio enabled: true
+02-08 04:37:38.348 13403 13762 D WebRTCManager:    Remote audio track: true
+02-08 04:37:38.349 13403 13403 D CallManager: 🔊 WebRTC state changed: CONNECTED
+02-08 04:37:38.349 13403 13762 D WebRTCManager:    Remote audio enabled: true
+02-08 04:37:38.349 13403 13403 D CallManager: 🔊 WebRTC CONNECTED - verifying audio setup...
+02-08 04:37:38.349 13403 13762 D WebRTCManager:    Transceiver[0]:
+02-08 04:37:38.349 13403 13762 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:37:38.350 13403 13762 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:37:38.350 13403 13762 D WebRTCManager:      - currentDirection: SEND_RECV
+02-08 04:37:38.350 13403 13762 D WebRTCManager:      - mid: 0
+02-08 04:37:38.350 13403 13762 D WebRTCManager:      - Receiver track: kind=audio, enabled=true, state=LIVE
+02-08 04:37:38.350 13403 13762 D WebRTCManager:      - Sender track: kind=audio, enabled=true, state=LIVE
+02-08 04:37:38.350 13403 13762 D WebRTCManager:    AudioManager state AFTER force:
+02-08 04:37:38.351 13403 13762 D WebRTCManager:    - Mode: 3 (3=IN_COMMUNICATION)
+02-08 04:37:38.352 13403 13762 D WebRTCManager:    - Speakerphone: false
+02-08 04:37:38.353 13403 13762 D WebRTCManager:    - Mic muted: false
+02-08 04:37:38.355 13403 13762 D WebRTCManager:    - Voice volume: 9
+02-08 04:37:38.355 13403 13762 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:37:38.355 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.458 13403 13814 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.459 13403 13814 D WebRTCManager: 🎤 AUDIO RECORD STARTED - Microphone capture beginning!
+02-08 04:37:38.459 13403 13814 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.852 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.852 13403 13403 D WebRTCManager: 🔍 VERIFYING AUDIO SETUP
+02-08 04:37:38.852 13403 13403 D WebRTCManager:    ✅ Local audio track OK
+02-08 04:37:38.852 13403 13403 D WebRTCManager:    ✅ Remote audio track OK
+02-08 04:37:38.853 13403 13403 D WebRTCManager:    ✅ Audio mode OK
+02-08 04:37:38.854 13403 13403 D WebRTCManager:    ✅ Voice call volume OK: 9
+02-08 04:37:38.854 13403 13403 D WebRTCManager:    Result: ✅ AUDIO SETUP VALID
+02-08 04:37:38.854 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.854 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:37:38.854 13403 13403 D WebRTCManager: 📊 WEBRTC STATS DEBUG
+02-08 04:37:38.854 13403 13403 D WebRTCManager:    State: CONNECTED
+02-08 04:37:38.854 13403 13403 D WebRTCManager:    Local audio track: audio0, enabled=true
+02-08 04:37:38.854 13403 13403 D WebRTCManager:    Remote audio track: 8f184831-fb79-4344-b489-4d9f61ee1b13, enabled=true
+02-08 04:37:38.854 13403 13403 D WebRTCManager:    Muted: false
+02-08 04:37:38.856 13403 13403 D WebRTCManager:    Transceiver[0]:
+02-08 04:37:38.856 13403 13403 D WebRTCManager:      - Type: MEDIA_TYPE_AUDIO
+02-08 04:37:38.856 13403 13403 D WebRTCManager:      - Direction: SEND_RECV
+02-08 04:37:38.857 13403 13403 D WebRTCManager:      - Current direction: SEND_RECV
+02-08 04:37:38.857 13403 13403 D WebRTCManager:      - Stopped: false
+02-08 04:37:38.857 13403 13403 D WebRTCManager:      - Sender track: audio, enabled=true
+02-08 04:37:38.857 13403 13403 D WebRTCManager:      - Receiver track: audio, enabled=true
+02-08 04:37:38.857 13403 13403 D WebRTCManager:    AudioManager:
+02-08 04:37:38.858 13403 13403 D WebRTCManager:      - Mode: 3
+02-08 04:37:38.859 13403 13403 D WebRTCManager:      - Speakerphone: false
+02-08 04:37:38.859 13403 13403 D WebRTCManager:      - Microphone muted: false
+02-08 04:37:38.859 13403 13403 D WebRTCManager:      - Voice call volume: 9
+02-08 04:37:38.860 13403 13403 D WebRTCManager:      - Music volume: 13
+02-08 04:37:38.860 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.255 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.255 13403 13403 D CallManager: 📞 endCall() CALLED
+02-08 04:38:14.255 13403 13403 D CallManager:    Thread: main
+02-08 04:38:14.255 13403 13403 D CallManager:    Current callId: 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:38:14.255 13403 13403 D CallManager:    Current role: listener
+02-08 04:38:14.255 13403 13403 D CallManager:    WebRTC state: CONNECTED
+02-08 04:38:14.255 13403 13403 D CallManager:    📤 Sending endCall to server for: 156450b1-d364-4080-9c51-ab1e30bc1b7a
+02-08 04:38:14.255 13403 13403 D CallManager:    ✓ endCall sent to server
+02-08 04:38:14.255 13403 13403 D CallManager:    Cancelling WebRTC job...
+02-08 04:38:14.256 13403 13403 D CallManager:    ✓ WebRTC job cancelled
+02-08 04:38:14.256 13403 13403 D CallManager:    Closing WebRTC manager...
+02-08 04:38:14.256 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.256 13403 13403 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:38:14.256 13403 13403 D WebRTCManager:    Final state:
+02-08 04:38:14.256 13403 13403 D WebRTCManager:    - Local audio track: true, enabled=true
+02-08 04:38:14.257 13403 13403 D WebRTCManager:    - Remote audio track: true, enabled=true
+02-08 04:38:14.257 13403 13403 D WebRTCManager:    - Connection state: CONNECTED
+02-08 04:38:14.260 13403 13403 D WebRTCManager: Audio configuration restored
+02-08 04:38:14.267 13403 13454 D CallManager: 📨 [MessageCollector] Received: CallEnded
+02-08 04:38:14.267 13403 13454 D CallManager: 📩 Processing message: CallEnded
+02-08 04:38:14.267 13403 13454 D CallManager: 📞 Call ended: 156450b1-d364-4080-9c51-ab1e30bc1b7a, reason: ended
+02-08 04:38:14.267 13403 13454 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.267 13403 13454 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:38:14.267 13403 13454 D WebRTCManager:    Final state:
+02-08 04:38:14.415 13403 13814 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.415 13403 13814 D WebRTCManager: 🎤 AUDIO RECORD STOPPED - Microphone capture ended!
+02-08 04:38:14.415 13403 13814 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.427 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.427 13403 13762 D WebRTCManager: 🔗 ICE connection state: DISCONNECTED
+02-08 04:38:14.427 13403 13762 W WebRTCManager:    ⚠️ ICE DISCONNECTED
+02-08 04:38:14.427 13403 13454 D WebRTCManager:    - Local audio track: true, enabled=false
+02-08 04:38:14.427 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.427 13403 13454 D WebRTCManager:    - Remote audio track: true, enabled=false
+02-08 04:38:14.427 13403 13454 D WebRTCManager:    - Connection state: DISCONNECTED
+02-08 04:38:14.429 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.429 13403 13762 D WebRTCManager: 🔗 ICE connection state: CLOSED
+02-08 04:38:14.429 13403 13762 D WebRTCManager:    🚫 ICE CLOSED
+02-08 04:38:14.429 13403 13762 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.429 13403 13762 D WebRTCManager: Signaling state: CLOSED
+02-08 04:38:14.442 13403 13761 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.442 13403 13761 D WebRTCManager: 🔇 AUDIO TRACK STOPPED - Remote audio playback ended!
+02-08 04:38:14.442 13403 13761 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.460 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.461 13403 13403 D CallManager:    ✓ WebRTC manager closed
+02-08 04:38:14.461 13403 13403 D CallManager:    Resetting state...
+02-08 04:38:14.461 13403 13403 D CallManager:    ✓ State reset
+02-08 04:38:14.461 13403 13403 D CallManager:    ✓ Initialization tracking reset
+02-08 04:38:14.461 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:38:14.461 13403 13403 D CallManager: ✅ Call ended successfully
+02-08 04:38:14.490 13403 13454 D WebRTCManager: Audio configuration restored
+02-08 04:38:14.491 13403 13454 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:29.618 13403 13403 D CallManager: Submitting share: Advice, Heavy, 10 min
+02-08 04:38:29.628 13403 13454 D CallManager: 📨 [MessageCollector] Received: ShareSubmitted
+02-08 04:38:29.628 13403 13454 D CallManager: 📩 Processing message: ShareSubmitted
+02-08 04:38:29.628 13403 13454 D CallManager: 📝 Share submitted: 34cc4f5f-5d9e-46c8-8518-b8b66911c8c6, status: queued
+02-08 04:38:51.276 13403 13458 D CallManager: 📨 [MessageCollector] Received: MatchMade
+02-08 04:38:51.277 13403 13458 D CallManager: 📩 Processing message: MatchMade
+02-08 04:38:51.277 13403 13458 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.277 13403 13458 D CallManager: 🎯 MATCH MADE RECEIVED!
+02-08 04:38:51.277 13403 13458 D CallManager:    Thread: DefaultDispatcher-worker-6
+02-08 04:38:51.277 13403 13458 D CallManager:    Call ID: dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.277 13403 13458 D CallManager:    Role: sharer
+02-08 04:38:51.277 13403 13458 D CallManager:    Duration: 10 min
+02-08 04:38:51.277 13403 13458 D CallManager:    Topic: Advice
+02-08 04:38:51.277 13403 13458 D CallManager:    Intent: x 
+02-08 04:38:51.277 13403 13458 D CallManager:    TURN servers: 2
+02-08 04:38:51.277 13403 13458 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.277 13403 13458 D CallManager:    Step 1: Setting currentRole to 'sharer'
+02-08 04:38:51.277 13403 13458 D CallManager:    ✓ currentRole is now: sharer
+02-08 04:38:51.277 13403 13458 D CallManager:    Step 2: Setting matchConsumed to false
+02-08 04:38:51.277 13403 13458 D CallManager:    Step 3: Setting currentCallId to 'dbc9231d-e9f2-45d4-8380-88fb32301e78'
+02-08 04:38:51.277 13403 13458 D CallManager:    Step 4: Clearing pendingShareId and incomingPreview
+02-08 04:38:51.278 13403 13458 D CallManager:    Step 5: Updating call parameters
+02-08 04:38:51.278 13403 13458 D CallManager:    Step 6: Setting matchInfo (THIS TRIGGERS NAVIGATION)
+02-08 04:38:51.278 13403 13458 D CallManager:    ✓ matchInfo is now set
+02-08 04:38:51.278 13403 13458 D CallManager: 📞 All state updated, now initializing WebRTC...
+02-08 04:38:51.278 13403 13458 D CallManager:    TURN: [turn:localhost:3478]
+02-08 04:38:51.278 13403 13458 D CallManager:    TURN: [stun:stun.l.google.com:19302]
+02-08 04:38:51.278 13403 13458 D CallManager: 🎬 Step 7: Calling initializeWebRTC(isInitiator=true)
+02-08 04:38:51.278 13403 13458 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.278 13403 13458 D CallManager: 🎬 initializeWebRTC CALLED
+02-08 04:38:51.278 13403 13458 D CallManager:    Thread: DefaultDispatcher-worker-6
+02-08 04:38:51.278 13403 13458 D CallManager:    isInitiator: true
+02-08 04:38:51.278 13403 13458 D CallManager:    turnServers: 2
+02-08 04:38:51.278 13403 13458 D CallManager:    callId: dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.278 13403 13458 D CallManager:    isWebRTCInitializing: false
+02-08 04:38:51.278 13403 13458 D CallManager:    lastInitializedCallId: null
+02-08 04:38:51.278 13403 13458 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.278 13403 13458 D CallManager:    Set isWebRTCInitializing = true
+02-08 04:38:51.278 13403 13458 D CallManager:    Cancelled previous WebRTC job
+02-08 04:38:51.278 13403 13458 D CallManager:    Launching coroutine on Main thread...
+02-08 04:38:51.279 13403 13458 D CallManager:    ✓ initializeWebRTC launched
+02-08 04:38:51.280 13403 13403 D CallManager: 🔧 initializeWebRTC - NOW ON MAIN THREAD
+02-08 04:38:51.280 13403 13403 D CallManager:    Thread: main
+02-08 04:38:51.280 13403 13403 D CallManager: 🧹 Disposing existing WebRTC manager
+02-08 04:38:51.280 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.280 13403 13403 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:38:51.280 13403 13403 D WebRTCManager:    Final state:
+02-08 04:38:51.280 13403 13403 D WebRTCManager:    - Local audio track: false, enabled=null
+02-08 04:38:51.280 13403 13403 D WebRTCManager:    - Remote audio track: false, enabled=null
+02-08 04:38:51.280 13403 13403 D WebRTCManager:    - Connection state: IDLE
+02-08 04:38:51.285 13403 13403 D WebRTCManager: Audio configuration restored
+02-08 04:38:51.285 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.289 13403 13403 D WebRTCManager: WebRTCManager disposed
+02-08 04:38:51.289 13403 13403 D CallManager: 🆕 Creating new WebRTCManager...
+02-08 04:38:51.290 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.290 13403 13403 D WebRTCManager: 🆕 WebRTCManager CONSTRUCTOR CALLED
+02-08 04:38:51.290 13403 13403 D WebRTCManager:    Thread: main
+02-08 04:38:51.290 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.290 13403 13403 D WebRTCManager: PeerConnectionFactory already initialized
+02-08 04:38:51.290 13403 13403 D WebRTCManager: 🏭 initializePeerConnectionFactory starting...
+02-08 04:38:51.290 13403 13403 D WebRTCManager:    ⚠️ Voice anonymization TEMPORARILY DISABLED for debugging
+02-08 04:38:51.293 13403 13403 D WebRTCManager:    ✅ JavaAudioDeviceModule created
+02-08 04:38:51.293 13403 13403 D WebRTCManager:       - Hardware AEC enabled: true
+02-08 04:38:51.293 13403 13403 D WebRTCManager:       - Hardware NS enabled: true
+02-08 04:38:51.299 13403 13403 D WebRTCManager:    ✅ PeerConnectionFactory created (standard audio, no voice processing)
+02-08 04:38:51.299 13403 13403 D WebRTCManager:    ✓ WebRTCManager constructor completed
+02-08 04:38:51.300 13403 13403 D CallManager: 🔌 Creating peer connection...
+02-08 04:38:51.301 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.301 13403 13403 D WebRTCManager: 🔌 createPeerConnection CALLED
+02-08 04:38:51.301 13403 13403 D WebRTCManager:    isInitiator: true
+02-08 04:38:51.301 13403 13403 D WebRTCManager:    Role: SHARER (will create offer)
+02-08 04:38:51.301 13403 13403 D WebRTCManager:    TURN servers: 2
+02-08 04:38:51.301 13403 13403 D WebRTCManager:    - [turn:localhost:3478]
+02-08 04:38:51.301 13403 13403 D WebRTCManager:    - [stun:stun.l.google.com:19302]
+02-08 04:38:51.301 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.301 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.301 13403 13403 D WebRTCManager: 🔊 configureAudioForCall CALLED
+02-08 04:38:51.302 13403 13403 D WebRTCManager:    Saved audio mode: 0, speakerphone: false
+02-08 04:38:51.303 13403 13403 D WebRTCManager:    Set mode to MODE_IN_COMMUNICATION
+02-08 04:38:51.304 13403 13403 D WebRTCManager:    Set speakerphone OFF (prevents echo)
+02-08 04:38:51.412 13403 13403 D WebRTCManager:    Set VOICE_CALL volume to 9 / 11
+02-08 04:38:51.457 13403 13403 D WebRTCManager:    Set MUSIC volume to 13 / 15 (fallback)
+02-08 04:38:51.461 13403 13403 D WebRTCManager:    Audio focus request result: 1 (1=granted)
+02-08 04:38:51.461 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:38:51.461 13403 13403 D WebRTCManager:    FINAL AUDIO STATE:
+02-08 04:38:51.468 13403 13403 D WebRTCManager:    - Mode: 3 (3=MODE_IN_COMMUNICATION)
+02-08 04:38:51.470 13403 13403 D WebRTCManager:    - Speakerphone: false
+02-08 04:38:51.471 13403 13403 D WebRTCManager:    - Microphone muted: false
+02-08 04:38:51.476 13403 13403 D WebRTCManager:    - Music active: false
+02-08 04:38:51.572 13403 13403 D WebRTCManager:    - Voice call volume: 9
+02-08 04:38:51.572 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.573 13403 13403 D WebRTCManager:    ICE servers built: 3
+02-08 04:38:51.575 13403 13403 D WebRTCManager: ✅ PeerConnection created
+02-08 04:38:51.575 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.575 13403 13403 D WebRTCManager: 🎤 createLocalAudioTrack CALLED
+02-08 04:38:51.575 13403 13403 D WebRTCManager:    Thread: main
+02-08 04:38:51.575 13403 13403 D WebRTCManager:    peerConnectionFactory: true
+02-08 04:38:51.576 13403 13403 D WebRTCManager:    peerConnection: true
+02-08 04:38:51.576 13403 13403 D WebRTCManager:    ✓ Audio constraints created
+02-08 04:38:51.576 13403 13403 D WebRTCManager:    audioSource created: true
+02-08 04:38:51.576 13403 13403 D WebRTCManager:    localAudioTrack created: true
+02-08 04:38:51.577 13403 13403 D WebRTCManager:    localAudioTrack enabled: true
+02-08 04:38:51.577 13403 13962 D WebRTCManager: Renegotiation needed
+02-08 04:38:51.578 13403 13403 D WebRTCManager:    Track added to peerConnection, sender: true
+02-08 04:38:51.578 13403 13403 D WebRTCManager:    Sender track: audio
+02-08 04:38:51.578 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:38:51.578 13403 13403 D WebRTCManager:    TRANSCEIVERS AFTER ADDING LOCAL TRACK:
+02-08 04:38:51.580 13403 13403 D WebRTCManager:    Transceiver[0]:
+02-08 04:38:51.580 13403 13403 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:38:51.580 13403 13403 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:38:51.580 13403 13403 D WebRTCManager:      - currentDirection: null
+02-08 04:38:51.581 13403 13403 D WebRTCManager:      - mid: null
+02-08 04:38:51.581 13403 13403 D WebRTCManager:      - sender.track: audio
+02-08 04:38:51.581 13403 13403 D WebRTCManager:      - receiver.track: audio
+02-08 04:38:51.581 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:38:51.581 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.581 13403 13403 D WebRTCManager: ✅ Local audio track created - THIS DEVICE CAN NOW TRANSMIT AUDIO
+02-08 04:38:51.581 13403 13403 D WebRTCManager: 🔄 State set to CONNECTING
+02-08 04:38:51.581 13403 13403 D WebRTCManager: 📤 Creating offer (we are initiator)
+02-08 04:38:51.583 13403 13403 D WebRTCManager: PeerConnection created (initiator: true)
+02-08 04:38:51.583 13403 13403 D CallManager: ✅ WebRTC initialized successfully, isInitiator: true
+02-08 04:38:51.583 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.583 13403 13962 D WebRTCManager: 📤 OFFER CREATED!
+02-08 04:38:51.583 13403 13962 D WebRTCManager:    type: OFFER
+02-08 04:38:51.583 13403 13962 D WebRTCManager:    description length: 1175
+02-08 04:38:51.584 13403 13962 D WebRTCManager:    hasAudio: true
+02-08 04:38:51.584 13403 13962 D WebRTCManager:    audioDirection: sendrecv
+02-08 04:38:51.584 13403 13962 D WebRTCManager:    Transceivers at offer creation:
+02-08 04:38:51.585 13403 13962 D WebRTCManager:      [0] type=MEDIA_TYPE_AUDIO, dir=SEND_RECV, mid=null
+02-08 04:38:51.585 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.588 13403 13962 D WebRTCManager: Signaling state: HAVE_LOCAL_OFFER
+02-08 04:38:51.593 13403 13962 D WebRTCManager: Local description set
+02-08 04:38:51.597 13403 13403 D CallManager: 🔊 WebRTC state changed: CONNECTING
+02-08 04:38:51.598 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.598 13403 13403 D CallManager: 🔒 tryConsumeMatch() CALLED
+02-08 04:38:51.598 13403 13403 D CallManager:    Thread: main
+02-08 04:38:51.598 13403 13403 D CallManager:    Current _matchConsumed.value: false
+02-08 04:38:51.598 13403 13403 D CallManager:    Current matchInfo: dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.599 13403 13403 D CallManager:    [INSIDE LOCK] Checking consumed state...
+02-08 04:38:51.599 13403 13403 D CallManager:    ✓ Match consumed successfully - returning true
+02-08 04:38:51.599 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.607 13403 13454 D CallManager: 📤 Sending OFFER for call dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.617 13403 13962 D WebRTCManager: ICE gathering state: GATHERING
+02-08 04:38:51.646 13403 13962 D WebRTCManager: Local ICE candidate: 0
+02-08 04:38:51.647 13403 13962 D WebRTCManager: Local ICE candidate: 0
+02-08 04:38:51.648 13403 13962 D WebRTCManager: Local ICE candidate: 0
+02-08 04:38:51.708 13403 13962 D WebRTCManager: Local ICE candidate: 0
+02-08 04:38:51.733 13403 13454 D CallManager: 📤 Sending ICE candidate for call dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.734 13403 13454 D CallManager: 📤 Sending ICE candidate for call dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.735 13403 13453 D CallManager: 📨 [MessageCollector] Received: WebRtcAnswer
+02-08 04:38:51.735 13403 13453 D CallManager: 📩 Processing message: WebRtcAnswer
+02-08 04:38:51.735 13403 13453 D CallManager: 📥 Received WebRTC ANSWER, sdp length: 1134
+02-08 04:38:51.735 13403 13453 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.735 13403 13453 D WebRTCManager: 📥 setRemoteDescription CALLED
+02-08 04:38:51.735 13403 13453 D WebRTCManager:    Thread: DefaultDispatcher-worker-1
+02-08 04:38:51.735 13403 13453 D WebRTCManager:    isAnswer: true
+02-08 04:38:51.735 13403 13454 D CallManager: 📤 Sending ICE candidate for call dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.735 13403 13453 D WebRTCManager:    sdp.type: ANSWER
+02-08 04:38:51.735 13403 13453 D WebRTCManager:    sdp.description length: 1134
+02-08 04:38:51.735 13403 13453 D WebRTCManager:    hasRemoteDescriptionBeenSet: false
+02-08 04:38:51.735 13403 13453 D WebRTCManager:    peerConnection: true
+02-08 04:38:51.735 13403 13453 D WebRTCManager:    ✓ Set hasRemoteDescriptionBeenSet = true
+02-08 04:38:51.737 13403 13962 D WebRTCManager: Signaling state: STABLE
+02-08 04:38:51.738 13403 13454 D CallManager: 📤 Sending ICE candidate for call dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.789 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.789 13403 13962 D WebRTCManager: 🔗 ICE connection state: CHECKING
+02-08 04:38:51.789 13403 13962 D WebRTCManager:    🔍 ICE checking - attempting to connect...
+02-08 04:38:51.789 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.790 13403 14003 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.790 13403 14003 D WebRTCManager: 🔊 AUDIO TRACK STARTED - Remote audio playback beginning!
+02-08 04:38:51.790 13403 14003 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.791 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.791 13403 13962 D WebRTCManager: 🔊 onTrack - TRANSCEIVER RECEIVED!
+02-08 04:38:51.791 13403 13962 D WebRTCManager:    Thread: signaling_threa - 13962
+02-08 04:38:51.791 13403 13962 D WebRTCManager:    transceiver: true
+02-08 04:38:51.791 13403 13962 D WebRTCManager:    mediaType: MEDIA_TYPE_AUDIO
+02-08 04:38:51.791 13403 13962 D WebRTCManager:    direction: SEND_RECV
+02-08 04:38:51.791 13403 13962 D WebRTCManager:    mid: 0
+02-08 04:38:51.791 13403 13962 D WebRTCManager:    currentDirection: SEND_RECV
+02-08 04:38:51.791 13403 13962 D WebRTCManager:    isStopped: false
+02-08 04:38:51.792 13403 13962 D WebRTCManager:    This is an AUDIO transceiver
+02-08 04:38:51.792 13403 13962 D WebRTCManager:    Receiver track: kind=audio, id=31174148-01dc-48c1-b9e8-6cc701bbbd8d, enabled=true
+02-08 04:38:51.792 13403 13962 D WebRTCManager:    ✅ Remote audio track from transceiver ENABLED!
+02-08 04:38:51.792 13403 13962 D WebRTCManager:    Track state: LIVE
+02-08 04:38:51.792 13403 13962 D WebRTCManager:    Track enabled: true
+02-08 04:38:51.792 13403 13962 D WebRTCManager:    Sender track (local): kind=audio, id=audio0, enabled=true
+02-08 04:38:51.792 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.792 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.792 13403 13962 D WebRTCManager: 🔊 onAddTrack - REMOTE TRACK ADDED!
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    Thread: signaling_threa - 13962
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    receiver: true
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    receiver.track: org.webrtc.AudioTrack@1d6e995
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    receiver.track kind: audio
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    receiver.track id: 31174148-01dc-48c1-b9e8-6cc701bbbd8d
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    receiver.track enabled: true
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    streams count: 1
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    Processing track: kind=audio, id=31174148-01dc-48c1-b9e8-6cc701bbbd8d
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    ✅ Remote audio track ENABLED for playback!
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    remoteAudioTrack.id: 31174148-01dc-48c1-b9e8-6cc701bbbd8d
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    remoteAudioTrack.enabled: true
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    remoteAudioTrack.state: LIVE
+02-08 04:38:51.793 13403 13962 D WebRTCManager:    Current audio state:
+02-08 04:38:51.794 13403 13962 D WebRTCManager:    - Mode: 3
+02-08 04:38:51.795 13403 13962 D WebRTCManager:    - Speakerphone: false
+02-08 04:38:51.804 13403 13962 D WebRTCManager:    - Voice call volume: 9
+02-08 04:38:51.805 13403 13962 D WebRTCManager:    Stream ID: stream0
+02-08 04:38:51.805 13403 13962 D WebRTCManager:    Audio tracks in stream: 1
+02-08 04:38:51.805 13403 13962 D WebRTCManager:    Audio track [0]: id=31174148-01dc-48c1-b9e8-6cc701bbbd8d, enabled=true
+02-08 04:38:51.805 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.805 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.805 13403 13962 D WebRTCManager: 📥 onAddStream - REMOTE STREAM ADDED!
+02-08 04:38:51.805 13403 13962 D WebRTCManager:    stream: true
+02-08 04:38:51.805 13403 13962 D WebRTCManager:    stream.id: stream0
+02-08 04:38:51.805 13403 13962 D WebRTCManager:    audioTracks count: 1
+02-08 04:38:51.806 13403 13962 D WebRTCManager:    videoTracks count: 0
+02-08 04:38:51.806 13403 13962 D WebRTCManager:    Audio track[0]: id=31174148-01dc-48c1-b9e8-6cc701bbbd8d, enabled=true, state=LIVE
+02-08 04:38:51.806 13403 13962 D WebRTCManager:    Audio track[0] ENABLED: true
+02-08 04:38:51.806 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.806 13403 13962 D WebRTCManager:    ✅ Remote description set successfully!
+02-08 04:38:51.806 13403 13962 D WebRTCManager:    isAnswer: true
+02-08 04:38:51.806 13403 13453 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:51.806 13403 13962 D WebRTCManager: Local ICE candidate: 0
+02-08 04:38:51.807 13403 13962 D WebRTCManager: Local ICE candidate: 0
+02-08 04:38:51.807 13403 13962 D WebRTCManager: Local ICE candidate: 0
+02-08 04:38:51.808 13403 13453 D CallManager: 📤 Sending ICE candidate for call dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.810 13403 13453 D CallManager: 📤 Sending ICE candidate for call dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.811 13403 13453 D CallManager: 📤 Sending ICE candidate for call dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:38:51.858 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:38:51.859 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:38:51.859 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:655551136 1 udp 2122260223 192.168.1.183...
+02-08 04:38:51.859 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:38:51.860 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:38:51.860 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:38:51.860 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:1045707005 1 udp 2121998079 127.0.0.1 56...
+02-08 04:38:51.860 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:38:51.863 13403 13457 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:38:51.863 13403 13457 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:38:51.863 13403 13457 D CallManager: 📥 Received ICE candidate: candidate:323873830 1 udp 2122071295 ::1 59241 typ...
+02-08 04:38:51.863 13403 13457 D WebRTCManager: Remote ICE candidate added
+02-08 04:38:51.864 13403 13457 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:38:51.864 13403 13457 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:38:51.865 13403 13457 D CallManager: 📥 Received ICE candidate: candidate:235170149 1 udp 1686052607 154.159.237.6...
+02-08 04:38:51.866 13403 13457 D WebRTCManager: Remote ICE candidate added
+02-08 04:38:51.890 13403 13457 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:38:51.890 13403 13457 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:38:51.891 13403 13457 D CallManager: 📥 Received ICE candidate: candidate:3526425323 1 tcp 1518214911 10.43.174.17...
+02-08 04:38:51.892 13403 13457 D WebRTCManager: Remote ICE candidate added
+02-08 04:38:51.951 13403 13457 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:38:51.952 13403 13457 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:38:51.952 13403 13457 D CallManager: 📥 Received ICE candidate: candidate:2622973438 1 tcp 1518149375 10.0.132.80 ...
+02-08 04:38:51.953 13403 13457 D WebRTCManager: Remote ICE candidate added
+02-08 04:38:51.954 13403 13457 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:38:51.955 13403 13457 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:38:51.955 13403 13457 D CallManager: 📥 Received ICE candidate: candidate:1083955813 1 tcp 1518018303 127.0.0.1 54...
+02-08 04:38:51.956 13403 13457 D WebRTCManager: Remote ICE candidate added
+02-08 04:38:51.957 13403 13457 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:38:51.957 13403 13457 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:38:51.957 13403 13457 D CallManager: 📥 Received ICE candidate: candidate:1837239998 1 tcp 1518091519 ::1 50583 ty...
+02-08 04:38:51.957 13403 13457 D WebRTCManager: Remote ICE candidate added
+02-08 04:38:52.093 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:52.093 13403 13962 D WebRTCManager: 🔗 ICE connection state: CONNECTED
+02-08 04:38:52.093 13403 13962 D WebRTCManager:    ✅ ICE CONNECTED - WebRTC call established!
+02-08 04:38:52.094 13403 13962 D WebRTCManager:    🔊 Re-applying audio configuration (WebRTC resets it)...
+02-08 04:38:52.095 13403 13962 D WebRTCManager:    forceAudioModeForCall: current mode = 3
+02-08 04:38:52.095 13403 13403 D CallManager: 🔊 WebRTC state changed: CONNECTED
+02-08 04:38:52.096 13403 13403 D CallManager: 🔊 WebRTC CONNECTED - verifying audio setup...
+02-08 04:38:52.097 13403 13962 D WebRTCManager:    ✅ Audio mode confirmed: MODE_IN_COMMUNICATION
+02-08 04:38:52.097 13403 13962 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:38:52.098 13403 13962 D WebRTCManager:    AUDIO VERIFICATION ON ICE CONNECTED:
+02-08 04:38:52.098 13403 13962 D WebRTCManager:    Local audio track: true
+02-08 04:38:52.098 13403 13962 D WebRTCManager:    Local audio enabled: true
+02-08 04:38:52.099 13403 13962 D WebRTCManager:    Remote audio track: true
+02-08 04:38:52.099 13403 13962 D WebRTCManager:    Remote audio enabled: true
+02-08 04:38:52.100 13403 13962 D WebRTCManager:    Transceiver[0]:
+02-08 04:38:52.100 13403 13962 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:38:52.101 13403 13962 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:38:52.101 13403 13962 D WebRTCManager:      - currentDirection: SEND_RECV
+02-08 04:38:52.101 13403 13962 D WebRTCManager:      - mid: 0
+02-08 04:38:52.102 13403 13962 D WebRTCManager:      - Receiver track: kind=audio, enabled=true, state=LIVE
+02-08 04:38:52.102 13403 13962 D WebRTCManager:      - Sender track: kind=audio, enabled=true, state=LIVE
+02-08 04:38:52.102 13403 13962 D WebRTCManager:    AudioManager state AFTER force:
+02-08 04:38:52.103 13403 13962 D WebRTCManager:    - Mode: 3 (3=IN_COMMUNICATION)
+02-08 04:38:52.103 13403 13962 D WebRTCManager:    - Speakerphone: false
+02-08 04:38:52.104 13403 13962 D WebRTCManager:    - Mic muted: false
+02-08 04:38:52.107 13403 13962 D WebRTCManager:    - Voice volume: 9
+02-08 04:38:52.107 13403 13962 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:38:52.107 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:52.214 13403 14008 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:52.214 13403 14008 D WebRTCManager: 🎤 AUDIO RECORD STARTED - Microphone capture beginning!
+02-08 04:38:52.214 13403 14008 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:52.596 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:52.596 13403 13403 D WebRTCManager: 🔍 VERIFYING AUDIO SETUP
+02-08 04:38:52.596 13403 13403 D WebRTCManager:    ✅ Local audio track OK
+02-08 04:38:52.596 13403 13403 D WebRTCManager:    ✅ Remote audio track OK
+02-08 04:38:52.597 13403 13403 D WebRTCManager:    ✅ Audio mode OK
+02-08 04:38:52.598 13403 13403 D WebRTCManager:    ✅ Voice call volume OK: 9
+02-08 04:38:52.598 13403 13403 D WebRTCManager:    Result: ✅ AUDIO SETUP VALID
+02-08 04:38:52.598 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:52.598 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:38:52.598 13403 13403 D WebRTCManager: 📊 WEBRTC STATS DEBUG
+02-08 04:38:52.598 13403 13403 D WebRTCManager:    State: CONNECTED
+02-08 04:38:52.598 13403 13403 D WebRTCManager:    Local audio track: audio0, enabled=true
+02-08 04:38:52.599 13403 13403 D WebRTCManager:    Remote audio track: 31174148-01dc-48c1-b9e8-6cc701bbbd8d, enabled=true
+02-08 04:38:52.599 13403 13403 D WebRTCManager:    Muted: false
+02-08 04:38:52.600 13403 13403 D WebRTCManager:    Transceiver[0]:
+02-08 04:38:52.600 13403 13403 D WebRTCManager:      - Type: MEDIA_TYPE_AUDIO
+02-08 04:38:52.600 13403 13403 D WebRTCManager:      - Direction: SEND_RECV
+02-08 04:38:52.600 13403 13403 D WebRTCManager:      - Current direction: SEND_RECV
+02-08 04:38:52.600 13403 13403 D WebRTCManager:      - Stopped: false
+02-08 04:38:52.601 13403 13403 D WebRTCManager:      - Sender track: audio, enabled=true
+02-08 04:38:52.601 13403 13403 D WebRTCManager:      - Receiver track: audio, enabled=true
+02-08 04:38:52.601 13403 13403 D WebRTCManager:    AudioManager:
+02-08 04:38:52.602 13403 13403 D WebRTCManager:      - Mode: 3
+02-08 04:38:52.603 13403 13403 D WebRTCManager:      - Speakerphone: false
+02-08 04:38:52.604 13403 13403 D WebRTCManager:      - Microphone muted: false
+02-08 04:38:52.604 13403 13403 D WebRTCManager:      - Voice call volume: 9
+02-08 04:38:52.605 13403 13403 D WebRTCManager:      - Music volume: 13
+02-08 04:38:52.605 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.366 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.367 13403 13403 D CallManager: 📞 endCall() CALLED
+02-08 04:39:11.367 13403 13403 D CallManager:    Thread: main
+02-08 04:39:11.367 13403 13403 D CallManager:    Current callId: dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:39:11.367 13403 13403 D CallManager:    Current role: sharer
+02-08 04:39:11.367 13403 13403 D CallManager:    WebRTC state: CONNECTED
+02-08 04:39:11.367 13403 13403 D CallManager:    📤 Sending endCall to server for: dbc9231d-e9f2-45d4-8380-88fb32301e78
+02-08 04:39:11.367 13403 13403 D CallManager:    ✓ endCall sent to server
+02-08 04:39:11.367 13403 13403 D CallManager:    Cancelling WebRTC job...
+02-08 04:39:11.368 13403 13403 D CallManager:    ✓ WebRTC job cancelled
+02-08 04:39:11.368 13403 13403 D CallManager:    Closing WebRTC manager...
+02-08 04:39:11.368 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.368 13403 13403 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:39:11.368 13403 13403 D WebRTCManager:    Final state:
+02-08 04:39:11.368 13403 13403 D WebRTCManager:    - Local audio track: true, enabled=true
+02-08 04:39:11.368 13403 13403 D WebRTCManager:    - Remote audio track: true, enabled=true
+02-08 04:39:11.368 13403 13403 D WebRTCManager:    - Connection state: CONNECTED
+02-08 04:39:11.371 13403 13403 D WebRTCManager: Audio configuration restored
+02-08 04:39:11.373 13403 13457 D CallManager: 📨 [MessageCollector] Received: CallEnded
+02-08 04:39:11.373 13403 13457 D CallManager: 📩 Processing message: CallEnded
+02-08 04:39:11.373 13403 13457 D CallManager: 📞 Call ended: dbc9231d-e9f2-45d4-8380-88fb32301e78, reason: ended
+02-08 04:39:11.374 13403 13457 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.374 13403 13457 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:39:11.374 13403 13457 D WebRTCManager:    Final state:
+02-08 04:39:11.678 13403 14008 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.678 13403 14008 D WebRTCManager: 🎤 AUDIO RECORD STOPPED - Microphone capture ended!
+02-08 04:39:11.678 13403 14008 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.691 13403 13457 D WebRTCManager:    - Local audio track: true, enabled=false
+02-08 04:39:11.691 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.691 13403 13962 D WebRTCManager: 🔗 ICE connection state: DISCONNECTED
+02-08 04:39:11.691 13403 13962 W WebRTCManager:    ⚠️ ICE DISCONNECTED
+02-08 04:39:11.691 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.691 13403 13457 D WebRTCManager:    - Remote audio track: true, enabled=true
+02-08 04:39:11.691 13403 13457 D WebRTCManager:    - Connection state: DISCONNECTED
+02-08 04:39:11.695 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.695 13403 13962 D WebRTCManager: 🔗 ICE connection state: CLOSED
+02-08 04:39:11.695 13403 13962 D WebRTCManager:    🚫 ICE CLOSED
+02-08 04:39:11.695 13403 13962 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.695 13403 13962 D WebRTCManager: Signaling state: CLOSED
+02-08 04:39:11.717 13403 13961 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.717 13403 13961 D WebRTCManager: 🔇 AUDIO TRACK STOPPED - Remote audio playback ended!
+02-08 04:39:11.717 13403 13961 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.740 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.740 13403 13403 D CallManager:    ✓ WebRTC manager closed
+02-08 04:39:11.740 13403 13403 D CallManager:    Resetting state...
+02-08 04:39:11.740 13403 13403 D CallManager:    ✓ State reset
+02-08 04:39:11.740 13403 13403 D CallManager:    ✓ Initialization tracking reset
+02-08 04:39:11.740 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:39:11.740 13403 13403 D CallManager: ✅ Call ended successfully
+02-08 04:39:11.767 13403 13457 D WebRTCManager: Audio configuration restored
+02-08 04:39:11.767 13403 13457 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:35.195 13403 13403 D CallManager: Submitting share: Advice, Very Heavy, 10 min
+02-08 04:40:35.203 13403 13457 D CallManager: 📨 [MessageCollector] Received: ShareSubmitted
+02-08 04:40:35.203 13403 13457 D CallManager: 📩 Processing message: ShareSubmitted
+02-08 04:40:35.203 13403 13457 D CallManager: 📝 Share submitted: 282cd98f-308a-46f0-837a-0938706ed200, status: queued
+02-08 04:40:36.280 13403 13454 D CallManager: 📨 [MessageCollector] Received: MatchMade
+02-08 04:40:36.280 13403 13454 D CallManager: 📩 Processing message: MatchMade
+02-08 04:40:36.281 13403 13454 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.281 13403 13454 D CallManager: 🎯 MATCH MADE RECEIVED!
+02-08 04:40:36.281 13403 13454 D CallManager:    Thread: DefaultDispatcher-worker-2
+02-08 04:40:36.281 13403 13454 D CallManager:    Call ID: 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.281 13403 13454 D CallManager:    Role: sharer
+02-08 04:40:36.281 13403 13454 D CallManager:    Duration: 10 min
+02-08 04:40:36.281 13403 13454 D CallManager:    Topic: Advice
+02-08 04:40:36.281 13403 13454 D CallManager:    Intent: w
+02-08 04:40:36.281 13403 13454 D CallManager:    TURN servers: 2
+02-08 04:40:36.282 13403 13454 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.282 13403 13454 D CallManager:    Step 1: Setting currentRole to 'sharer'
+02-08 04:40:36.282 13403 13454 D CallManager:    ✓ currentRole is now: sharer
+02-08 04:40:36.282 13403 13454 D CallManager:    Step 2: Setting matchConsumed to false
+02-08 04:40:36.283 13403 13454 D CallManager:    Step 3: Setting currentCallId to '00f45998-b5cc-491b-9807-99ffa674e72a'
+02-08 04:40:36.283 13403 13454 D CallManager:    Step 4: Clearing pendingShareId and incomingPreview
+02-08 04:40:36.283 13403 13454 D CallManager:    Step 5: Updating call parameters
+02-08 04:40:36.284 13403 13454 D CallManager:    Step 6: Setting matchInfo (THIS TRIGGERS NAVIGATION)
+02-08 04:40:36.284 13403 13454 D CallManager:    ✓ matchInfo is now set
+02-08 04:40:36.284 13403 13454 D CallManager: 📞 All state updated, now initializing WebRTC...
+02-08 04:40:36.285 13403 13454 D CallManager:    TURN: [turn:localhost:3478]
+02-08 04:40:36.285 13403 13454 D CallManager:    TURN: [stun:stun.l.google.com:19302]
+02-08 04:40:36.285 13403 13454 D CallManager: 🎬 Step 7: Calling initializeWebRTC(isInitiator=true)
+02-08 04:40:36.285 13403 13454 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.286 13403 13454 D CallManager: 🎬 initializeWebRTC CALLED
+02-08 04:40:36.286 13403 13454 D CallManager:    Thread: DefaultDispatcher-worker-2
+02-08 04:40:36.286 13403 13454 D CallManager:    isInitiator: true
+02-08 04:40:36.286 13403 13454 D CallManager:    turnServers: 2
+02-08 04:40:36.286 13403 13454 D CallManager:    callId: 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.286 13403 13454 D CallManager:    isWebRTCInitializing: false
+02-08 04:40:36.287 13403 13454 D CallManager:    lastInitializedCallId: null
+02-08 04:40:36.287 13403 13454 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.287 13403 13454 D CallManager:    Set isWebRTCInitializing = true
+02-08 04:40:36.287 13403 13454 D CallManager:    Cancelled previous WebRTC job
+02-08 04:40:36.287 13403 13454 D CallManager:    Launching coroutine on Main thread...
+02-08 04:40:36.289 13403 13454 D CallManager:    ✓ initializeWebRTC launched
+02-08 04:40:36.304 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.304 13403 13403 D CallManager: 🔒 tryConsumeMatch() CALLED
+02-08 04:40:36.304 13403 13403 D CallManager:    Thread: main
+02-08 04:40:36.304 13403 13403 D CallManager:    Current _matchConsumed.value: false
+02-08 04:40:36.304 13403 13403 D CallManager:    Current matchInfo: 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.304 13403 13403 D CallManager:    [INSIDE LOCK] Checking consumed state...
+02-08 04:40:36.304 13403 13403 D CallManager:    ✓ Match consumed successfully - returning true
+02-08 04:40:36.304 13403 13403 D CallManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.311 13403 13403 D CallManager: 🔧 initializeWebRTC - NOW ON MAIN THREAD
+02-08 04:40:36.311 13403 13403 D CallManager:    Thread: main
+02-08 04:40:36.311 13403 13403 D CallManager: 🧹 Disposing existing WebRTC manager
+02-08 04:40:36.311 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.311 13403 13403 D WebRTCManager: 🛑 Closing WebRTC connection
+02-08 04:40:36.311 13403 13403 D WebRTCManager:    Final state:
+02-08 04:40:36.311 13403 13403 D WebRTCManager:    - Local audio track: false, enabled=null
+02-08 04:40:36.311 13403 13403 D WebRTCManager:    - Remote audio track: false, enabled=null
+02-08 04:40:36.311 13403 13403 D WebRTCManager:    - Connection state: IDLE
+02-08 04:40:36.315 13403 13403 D WebRTCManager: Audio configuration restored
+02-08 04:40:36.315 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.320 13403 13403 D WebRTCManager: WebRTCManager disposed
+02-08 04:40:36.320 13403 13403 D CallManager: 🆕 Creating new WebRTCManager...
+02-08 04:40:36.320 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.320 13403 13403 D WebRTCManager: 🆕 WebRTCManager CONSTRUCTOR CALLED
+02-08 04:40:36.320 13403 13403 D WebRTCManager:    Thread: main
+02-08 04:40:36.320 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.320 13403 13403 D WebRTCManager: PeerConnectionFactory already initialized
+02-08 04:40:36.320 13403 13403 D WebRTCManager: 🏭 initializePeerConnectionFactory starting...
+02-08 04:40:36.320 13403 13403 D WebRTCManager:    ⚠️ Voice anonymization TEMPORARILY DISABLED for debugging
+02-08 04:40:36.323 13403 13403 D WebRTCManager:    ✅ JavaAudioDeviceModule created
+02-08 04:40:36.323 13403 13403 D WebRTCManager:       - Hardware AEC enabled: true
+02-08 04:40:36.323 13403 13403 D WebRTCManager:       - Hardware NS enabled: true
+02-08 04:40:36.329 13403 13403 D WebRTCManager:    ✅ PeerConnectionFactory created (standard audio, no voice processing)
+02-08 04:40:36.329 13403 13403 D WebRTCManager:    ✓ WebRTCManager constructor completed
+02-08 04:40:36.329 13403 13403 D CallManager: 🔌 Creating peer connection...
+02-08 04:40:36.329 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.329 13403 13403 D WebRTCManager: 🔌 createPeerConnection CALLED
+02-08 04:40:36.330 13403 13403 D WebRTCManager:    isInitiator: true
+02-08 04:40:36.330 13403 13403 D WebRTCManager:    Role: SHARER (will create offer)
+02-08 04:40:36.330 13403 13403 D WebRTCManager:    TURN servers: 2
+02-08 04:40:36.330 13403 13403 D WebRTCManager:    - [turn:localhost:3478]
+02-08 04:40:36.330 13403 13403 D WebRTCManager:    - [stun:stun.l.google.com:19302]
+02-08 04:40:36.330 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.330 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.330 13403 13403 D WebRTCManager: 🔊 configureAudioForCall CALLED
+02-08 04:40:36.331 13403 13403 D WebRTCManager:    Saved audio mode: 0, speakerphone: false
+02-08 04:40:36.332 13403 13403 D WebRTCManager:    Set mode to MODE_IN_COMMUNICATION
+02-08 04:40:36.333 13403 13403 D WebRTCManager:    Set speakerphone OFF (prevents echo)
+02-08 04:40:36.444 13403 13403 D WebRTCManager:    Set VOICE_CALL volume to 9 / 11
+02-08 04:40:36.450 13403 13403 D WebRTCManager:    Set MUSIC volume to 13 / 15 (fallback)
+02-08 04:40:36.454 13403 13403 D WebRTCManager:    Audio focus request result: 1 (1=granted)
+02-08 04:40:36.454 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:40:36.454 13403 13403 D WebRTCManager:    FINAL AUDIO STATE:
+02-08 04:40:36.483 13403 13403 D WebRTCManager:    - Mode: 3 (3=MODE_IN_COMMUNICATION)
+02-08 04:40:36.487 13403 13403 D WebRTCManager:    - Speakerphone: false
+02-08 04:40:36.488 13403 13403 D WebRTCManager:    - Microphone muted: false
+02-08 04:40:36.490 13403 13403 D WebRTCManager:    - Music active: false
+02-08 04:40:36.547 13403 13403 D WebRTCManager:    - Voice call volume: 9
+02-08 04:40:36.548 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.548 13403 13403 D WebRTCManager:    ICE servers built: 3
+02-08 04:40:36.551 13403 13403 D WebRTCManager: ✅ PeerConnection created
+02-08 04:40:36.551 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.551 13403 13403 D WebRTCManager: 🎤 createLocalAudioTrack CALLED
+02-08 04:40:36.551 13403 13403 D WebRTCManager:    Thread: main
+02-08 04:40:36.552 13403 13403 D WebRTCManager:    peerConnectionFactory: true
+02-08 04:40:36.552 13403 13403 D WebRTCManager:    peerConnection: true
+02-08 04:40:36.552 13403 13403 D WebRTCManager:    ✓ Audio constraints created
+02-08 04:40:36.553 13403 13403 D WebRTCManager:    audioSource created: true
+02-08 04:40:36.553 13403 13403 D WebRTCManager:    localAudioTrack created: true
+02-08 04:40:36.554 13403 13403 D WebRTCManager:    localAudioTrack enabled: true
+02-08 04:40:36.554 13403 14220 D WebRTCManager: Renegotiation needed
+02-08 04:40:36.555 13403 13403 D WebRTCManager:    Track added to peerConnection, sender: true
+02-08 04:40:36.555 13403 13403 D WebRTCManager:    Sender track: audio
+02-08 04:40:36.555 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:40:36.555 13403 13403 D WebRTCManager:    TRANSCEIVERS AFTER ADDING LOCAL TRACK:
+02-08 04:40:36.556 13403 13403 D WebRTCManager:    Transceiver[0]:
+02-08 04:40:36.556 13403 13403 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:40:36.556 13403 13403 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:40:36.556 13403 13403 D WebRTCManager:      - currentDirection: null
+02-08 04:40:36.556 13403 13403 D WebRTCManager:      - mid: null
+02-08 04:40:36.556 13403 13403 D WebRTCManager:      - sender.track: audio
+02-08 04:40:36.556 13403 13403 D WebRTCManager:      - receiver.track: audio
+02-08 04:40:36.556 13403 13403 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:40:36.556 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.556 13403 13403 D WebRTCManager: ✅ Local audio track created - THIS DEVICE CAN NOW TRANSMIT AUDIO
+02-08 04:40:36.556 13403 13403 D WebRTCManager: 🔄 State set to CONNECTING
+02-08 04:40:36.557 13403 13403 D WebRTCManager: 📤 Creating offer (we are initiator)
+02-08 04:40:36.558 13403 13403 D WebRTCManager: PeerConnection created (initiator: true)
+02-08 04:40:36.558 13403 13403 D CallManager: ✅ WebRTC initialized successfully, isInitiator: true
+02-08 04:40:36.558 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.558 13403 14220 D WebRTCManager: 📤 OFFER CREATED!
+02-08 04:40:36.559 13403 14220 D WebRTCManager:    type: OFFER
+02-08 04:40:36.559 13403 14220 D WebRTCManager:    description length: 1175
+02-08 04:40:36.559 13403 14220 D WebRTCManager:    hasAudio: true
+02-08 04:40:36.559 13403 14220 D WebRTCManager:    audioDirection: sendrecv
+02-08 04:40:36.560 13403 14220 D WebRTCManager:    Transceivers at offer creation:
+02-08 04:40:36.560 13403 14220 D WebRTCManager:      [0] type=MEDIA_TYPE_AUDIO, dir=SEND_RECV, mid=null
+02-08 04:40:36.560 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.562 13403 14220 D WebRTCManager: Signaling state: HAVE_LOCAL_OFFER
+02-08 04:40:36.565 13403 14220 D WebRTCManager: Local description set
+02-08 04:40:36.592 13403 14220 D WebRTCManager: ICE gathering state: GATHERING
+02-08 04:40:36.616 13403 14220 D WebRTCManager: Local ICE candidate: 0
+02-08 04:40:36.618 13403 14220 D WebRTCManager: Local ICE candidate: 0
+02-08 04:40:36.619 13403 14220 D WebRTCManager: Local ICE candidate: 0
+02-08 04:40:36.660 13403 13403 D CallManager: 🔊 WebRTC state changed: CONNECTING
+02-08 04:40:36.665 13403 13457 D CallManager: 📤 Sending OFFER for call 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.679 13403 14220 D WebRTCManager: Local ICE candidate: 0
+02-08 04:40:36.687 13403 13457 D CallManager: 📤 Sending ICE candidate for call 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.688 13403 13457 D CallManager: 📤 Sending ICE candidate for call 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.690 13403 13457 D CallManager: 📤 Sending ICE candidate for call 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.704 13403 13457 D CallManager: 📤 Sending ICE candidate for call 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.720 13403 14220 D WebRTCManager: Local ICE candidate: 0
+02-08 04:40:36.721 13403 14220 D WebRTCManager: Local ICE candidate: 0
+02-08 04:40:36.722 13403 14220 D WebRTCManager: Local ICE candidate: 0
+02-08 04:40:36.728 13403 13457 D CallManager: 📤 Sending ICE candidate for call 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.729 13403 13457 D CallManager: 📤 Sending ICE candidate for call 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.732 13403 13457 D CallManager: 📤 Sending ICE candidate for call 00f45998-b5cc-491b-9807-99ffa674e72a
+02-08 04:40:36.813 13403 13454 D CallManager: 📨 [MessageCollector] Received: WebRtcAnswer
+02-08 04:40:36.813 13403 13454 D CallManager: 📩 Processing message: WebRtcAnswer
+02-08 04:40:36.813 13403 13454 D CallManager: 📥 Received WebRTC ANSWER, sdp length: 1134
+02-08 04:40:36.813 13403 13454 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.813 13403 13454 D WebRTCManager: 📥 setRemoteDescription CALLED
+02-08 04:40:36.814 13403 13454 D WebRTCManager:    Thread: DefaultDispatcher-worker-2
+02-08 04:40:36.814 13403 13454 D WebRTCManager:    isAnswer: true
+02-08 04:40:36.814 13403 13454 D WebRTCManager:    sdp.type: ANSWER
+02-08 04:40:36.814 13403 13454 D WebRTCManager:    sdp.description length: 1134
+02-08 04:40:36.814 13403 13454 D WebRTCManager:    hasRemoteDescriptionBeenSet: false
+02-08 04:40:36.814 13403 13454 D WebRTCManager:    peerConnection: true
+02-08 04:40:36.814 13403 13454 D WebRTCManager:    ✓ Set hasRemoteDescriptionBeenSet = true
+02-08 04:40:36.816 13403 14220 D WebRTCManager: Signaling state: STABLE
+02-08 04:40:36.886 13403 14263 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.887 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.887 13403 14220 D WebRTCManager: 🔗 ICE connection state: CHECKING
+02-08 04:40:36.887 13403 14220 D WebRTCManager:    🔍 ICE checking - attempting to connect...
+02-08 04:40:36.887 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.887 13403 14263 D WebRTCManager: 🔊 AUDIO TRACK STARTED - Remote audio playback beginning!
+02-08 04:40:36.887 13403 14263 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.889 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.889 13403 14220 D WebRTCManager: 🔊 onTrack - TRANSCEIVER RECEIVED!
+02-08 04:40:36.889 13403 14220 D WebRTCManager:    Thread: signaling_threa - 14220
+02-08 04:40:36.889 13403 14220 D WebRTCManager:    transceiver: true
+02-08 04:40:36.889 13403 14220 D WebRTCManager:    mediaType: MEDIA_TYPE_AUDIO
+02-08 04:40:36.889 13403 14220 D WebRTCManager:    direction: SEND_RECV
+02-08 04:40:36.889 13403 14220 D WebRTCManager:    mid: 0
+02-08 04:40:36.889 13403 14220 D WebRTCManager:    currentDirection: SEND_RECV
+02-08 04:40:36.889 13403 14220 D WebRTCManager:    isStopped: false
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    This is an AUDIO transceiver
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    Receiver track: kind=audio, id=ca04bf16-7ddc-4825-8356-115b5e33c275, enabled=true
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    ✅ Remote audio track from transceiver ENABLED!
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    Track state: LIVE
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    Track enabled: true
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    Sender track (local): kind=audio, id=audio0, enabled=true
+02-08 04:40:36.890 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.890 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.890 13403 14220 D WebRTCManager: 🔊 onAddTrack - REMOTE TRACK ADDED!
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    Thread: signaling_threa - 14220
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    receiver: true
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    receiver.track: org.webrtc.AudioTrack@df7e46b
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    receiver.track kind: audio
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    receiver.track id: ca04bf16-7ddc-4825-8356-115b5e33c275
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    receiver.track enabled: true
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    streams count: 1
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    Processing track: kind=audio, id=ca04bf16-7ddc-4825-8356-115b5e33c275
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    ✅ Remote audio track ENABLED for playback!
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    remoteAudioTrack.id: ca04bf16-7ddc-4825-8356-115b5e33c275
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    remoteAudioTrack.enabled: true
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    remoteAudioTrack.state: LIVE
+02-08 04:40:36.890 13403 14220 D WebRTCManager:    Current audio state:
+02-08 04:40:36.892 13403 14220 D WebRTCManager:    - Mode: 3
+02-08 04:40:36.893 13403 14220 D WebRTCManager:    - Speakerphone: false
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    - Voice call volume: 9
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    Stream ID: stream0
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    Audio tracks in stream: 1
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    Audio track [0]: id=ca04bf16-7ddc-4825-8356-115b5e33c275, enabled=true
+02-08 04:40:36.894 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.894 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.894 13403 14220 D WebRTCManager: 📥 onAddStream - REMOTE STREAM ADDED!
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    stream: true
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    stream.id: stream0
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    audioTracks count: 1
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    videoTracks count: 0
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    Audio track[0]: id=ca04bf16-7ddc-4825-8356-115b5e33c275, enabled=true, state=LIVE
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    Audio track[0] ENABLED: true
+02-08 04:40:36.894 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    ✅ Remote description set successfully!
+02-08 04:40:36.894 13403 14220 D WebRTCManager:    isAnswer: true
+02-08 04:40:36.895 13403 13454 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:36.895 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:40:36.895 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:40:36.895 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:263294812 1 udp 2122260223 192.168.1.183...
+02-08 04:40:36.896 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:40:36.918 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:40:36.919 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:40:36.919 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:385309953 1 udp 2121998079 127.0.0.1 428...
+02-08 04:40:36.920 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:40:36.920 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:40:36.921 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:40:36.921 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:1005488602 1 udp 2122071295 ::1 48557 ty...
+02-08 04:40:36.921 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:40:36.922 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:40:36.922 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:40:36.922 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:648481945 1 udp 1686052607 154.159.237.6...
+02-08 04:40:36.923 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:40:36.971 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:40:36.972 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:40:36.972 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:4203978519 1 tcp 1518214911 10.43.174.17...
+02-08 04:40:36.973 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:40:37.029 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:40:37.029 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:40:37.029 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:3035889666 1 tcp 1518149375 10.0.132.80 ...
+02-08 04:40:37.030 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:40:37.032 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:40:37.032 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:40:37.032 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:1748549529 1 tcp 1518018303 127.0.0.1 53...
+02-08 04:40:37.034 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:40:37.036 13403 13454 D CallManager: 📨 [MessageCollector] Received: IceCandidate
+02-08 04:40:37.036 13403 13454 D CallManager: 📩 Processing message: IceCandidate
+02-08 04:40:37.037 13403 13454 D CallManager: 📥 Received ICE candidate: candidate:1159818050 1 tcp 1518091519 ::1 35195 ty...
+02-08 04:40:37.038 13403 13454 D WebRTCManager: Remote ICE candidate added
+02-08 04:40:37.165 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:37.165 13403 14220 D WebRTCManager: 🔗 ICE connection state: CONNECTED
+02-08 04:40:37.165 13403 14220 D WebRTCManager:    ✅ ICE CONNECTED - WebRTC call established!
+02-08 04:40:37.167 13403 14220 D WebRTCManager:    🔊 Re-applying audio configuration (WebRTC resets it)...
+02-08 04:40:37.167 13403 13403 D CallManager: 🔊 WebRTC state changed: CONNECTED
+02-08 04:40:37.167 13403 13403 D CallManager: 🔊 WebRTC CONNECTED - verifying audio setup...
+02-08 04:40:37.169 13403 14220 D WebRTCManager:    forceAudioModeForCall: current mode = 3
+02-08 04:40:37.171 13403 14220 D WebRTCManager:    ✅ Audio mode confirmed: MODE_IN_COMMUNICATION
+02-08 04:40:37.171 13403 14220 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:40:37.171 13403 14220 D WebRTCManager:    AUDIO VERIFICATION ON ICE CONNECTED:
+02-08 04:40:37.171 13403 14220 D WebRTCManager:    Local audio track: true
+02-08 04:40:37.171 13403 14220 D WebRTCManager:    Local audio enabled: true
+02-08 04:40:37.171 13403 14220 D WebRTCManager:    Remote audio track: true
+02-08 04:40:37.172 13403 14220 D WebRTCManager:    Remote audio enabled: true
+02-08 04:40:37.172 13403 14220 D WebRTCManager:    Transceiver[0]:
+02-08 04:40:37.172 13403 14220 D WebRTCManager:      - mediaType: MEDIA_TYPE_AUDIO
+02-08 04:40:37.173 13403 14220 D WebRTCManager:      - direction: SEND_RECV
+02-08 04:40:37.173 13403 14220 D WebRTCManager:      - currentDirection: SEND_RECV
+02-08 04:40:37.174 13403 14220 D WebRTCManager:      - mid: 0
+02-08 04:40:37.174 13403 14220 D WebRTCManager:      - Receiver track: kind=audio, enabled=true, state=LIVE
+02-08 04:40:37.174 13403 14220 D WebRTCManager:      - Sender track: kind=audio, enabled=true, state=LIVE
+02-08 04:40:37.174 13403 14220 D WebRTCManager:    AudioManager state AFTER force:
+02-08 04:40:37.175 13403 14220 D WebRTCManager:    - Mode: 3 (3=IN_COMMUNICATION)
+02-08 04:40:37.177 13403 14220 D WebRTCManager:    - Speakerphone: false
+02-08 04:40:37.178 13403 14220 D WebRTCManager:    - Mic muted: false
+02-08 04:40:37.179 13403 14220 D WebRTCManager:    - Voice volume: 9
+02-08 04:40:37.179 13403 14220 D WebRTCManager:    ─────────────────────────────────────────────
+02-08 04:40:37.179 13403 14220 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:37.272 13403 14268 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:37.272 13403 14268 D WebRTCManager: 🎤 AUDIO RECORD STARTED - Microphone capture beginning!
+02-08 04:40:37.272 13403 14268 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:37.675 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:37.675 13403 13403 D WebRTCManager: 🔍 VERIFYING AUDIO SETUP
+02-08 04:40:37.675 13403 13403 D WebRTCManager:    ✅ Local audio track OK
+02-08 04:40:37.675 13403 13403 D WebRTCManager:    ✅ Remote audio track OK
+02-08 04:40:37.676 13403 13403 D WebRTCManager:    ✅ Audio mode OK
+02-08 04:40:37.677 13403 13403 D WebRTCManager:    ✅ Voice call volume OK: 9
+02-08 04:40:37.677 13403 13403 D WebRTCManager:    Result: ✅ AUDIO SETUP VALID
+02-08 04:40:37.677 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:37.677 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════
+02-08 04:40:37.677 13403 13403 D WebRTCManager: 📊 WEBRTC STATS DEBUG
+02-08 04:40:37.677 13403 13403 D WebRTCManager:    State: CONNECTED
+02-08 04:40:37.678 13403 13403 D WebRTCManager:    Local audio track: audio0, enabled=true
+02-08 04:40:37.678 13403 13403 D WebRTCManager:    Remote audio track: ca04bf16-7ddc-4825-8356-115b5e33c275, enabled=true
+02-08 04:40:37.678 13403 13403 D WebRTCManager:    Muted: false
+02-08 04:40:37.680 13403 13403 D WebRTCManager:    Transceiver[0]:
+02-08 04:40:37.680 13403 13403 D WebRTCManager:      - Type: MEDIA_TYPE_AUDIO
+02-08 04:40:37.680 13403 13403 D WebRTCManager:      - Direction: SEND_RECV
+02-08 04:40:37.680 13403 13403 D WebRTCManager:      - Current direction: SEND_RECV
+02-08 04:40:37.680 13403 13403 D WebRTCManager:      - Stopped: false
+02-08 04:40:37.681 13403 13403 D WebRTCManager:      - Sender track: audio, enabled=true
+02-08 04:40:37.681 13403 13403 D WebRTCManager:      - Receiver track: audio, enabled=true
+02-08 04:40:37.681 13403 13403 D WebRTCManager:    AudioManager:
+02-08 04:40:37.682 13403 13403 D WebRTCManager:      - Mode: 3
+02-08 04:40:37.683 13403 13403 D WebRTCManager:      - Speakerphone: false
+02-08 04:40:37.683 13403 13403 D WebRTCManager:      - Microphone muted: false
+02-08 04:40:37.684 13403 13403 D WebRTCManager:      - Voice call volume: 9
+02-08 04:40:37.685 13403 13403 D WebRTCManager:      - Music volume: 13
+02-08 04:40:37.685 13403 13403 D WebRTCManager: ═══════════════════════════════════════════════════

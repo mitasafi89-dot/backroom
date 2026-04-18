@@ -1,0 +1,30 @@
+02-08 04:47:40.796 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   STREAM_SYSTEM: volume=0, max=15, muted=true
+02-08 04:47:40.796 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal: Audio Devices: 
+02-08 04:47:40.797 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   TYPE_BUILTIN_EARPIECE(out): channels=[1], encodings=[2, 4, 22], sample rates=[48000, 44100], id=2
+02-08 04:47:40.797 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   TYPE_BUILTIN_SPEAKER(out): channels=[2], encodings=[2, 4, 22], sample rates=[48000, 44100], id=3
+02-08 04:47:40.797 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   TYPE_TELEPHONY(out): channels=[1], encodings=[2, 4, 22], sample rates=[48000, 44100], id=10
+02-08 04:47:40.797 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   TYPE_BUILTIN_MIC(in): channels=[1, 2], encodings=[2], sample rates=[8000, 16000, 32000, 48000, 44100], id=13
+02-08 04:47:40.797 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   TYPE_TELEPHONY(in): channels=[1], encodings=[2], sample rates=[8000, 16000, 32000, 48000, 44100], id=16
+02-08 04:47:40.798 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   TYPE_BUILTIN_MIC(in): channels=[1, 2], encodings=[2], sample rates=[8000, 16000, 32000, 48000, 44100], id=14
+02-08 04:47:40.798 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   TYPE_UNKNOWN(in): channels=[2], encodings=[2], sample rates=[48000], id=23
+02-08 04:47:40.798 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   TYPE_FM_TUNER(in): channels=[1, 2], encodings=[2], sample rates=[8000, 16000, 32000, 48000, 44100], id=18
+02-08 04:47:40.798 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal:   TYPE_UNKNOWN(in): channels=[1, 2], encodings=[2], sample rates=[8000, 16000, 32000, 48000, 44100], id=19
+02-08 04:47:40.799 26731 26877 E WebRTCManager: ❌ AUDIO RECORD INIT ERROR: Cannot create AudioRecord
+02-08 04:47:40.799 26731 26877 I org.webrtc.Logging: WebRtcAudioRecordExternal: releaseAudioResources
+02-08 04:47:41.245  1645 25839 V AS.AudioDeviceBroker: topCommunicationRouteClient: process no permission or mCommunicationRouteClients is empty
+02-08 04:47:41.246 26731 26731 D WebRTCManager:      - Microphone muted: false
+02-08 04:47:42.659   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup28 (../../devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-gauge/power_supply/mtk-gauge/wakeup28): Permission denied
+02-08 04:47:42.672   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup2 (../../devices/platform/10238000.gce_mbox/wakeup/wakeup2): Permission denied
+02-08 04:47:42.678   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup257 (../../devices/platform/18002000.consys/wakeup/wakeup257): Permission denied
+02-08 04:47:42.683   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup26 (../../devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-rtc/rtc/rtc0/alarmtimer.1.auto/wakeup/wakeup26): Permission denied
+02-08 04:47:42.700   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup34 (../../devices/platform/1100f000.i2c/i2c-3/3-0028/wakeup/wakeup34): Permission denied
+02-08 04:47:42.741   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup12 (../../devices/platform/1100d000.i2c/i2c-6/6-006a/wakeup/wakeup12): Permission denied
+02-08 04:47:42.750   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup251 (../../devices/platform/odm/odm:wifi_ant_check/wakeup/wakeup251): Permission denied
+02-08 04:47:42.792   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup27 (../../devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-gauge/power_supply/battery/wakeup27): Permission denied
+02-08 04:47:42.840   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup8 (../../devices/platform/1100d000.i2c/i2c-6/6-0060/tcpc/type_c_port0/wakeup8): Permission denied
+02-08 04:47:42.841   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup13 (../../devices/platform/1100d000.i2c/i2c-6/6-006a/power_supply/primary_chg/wakeup13): Permission denied
+02-08 04:47:42.860   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup11 (../../devices/platform/1100d000.i2c/i2c-6/6-0060/wakeup/wakeup11): Permission denied
+02-08 04:47:42.864   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup222 (../../devices/platform/1100a000.spi0/spi_master/spi0/spi0.0/wakeup/wakeup222): Permission denied
+02-08 04:47:42.866   524  5233 E android.system.suspend-service: Error opening kernel wakelock stats for: wakeup250 (../../devices/platform/charger/power_supply/usb/wakeup250): Permission denied
+02-08 04:48:10.295  1318  1444 D fingerprint: [silead_cust]E[silfp_cust_get_sys_charging_state:249] open the file node /sys/class/power_supply/battery/status failed(Permission denied)
+02-08 04:48:10.362  1318  1444 D fingerprint: [silead_cust]E[silfp_cust_get_sys_charging_state:249] open the file node /sys/class/power_supply/battery/status failed(Permission denied)

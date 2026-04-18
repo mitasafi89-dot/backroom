@@ -1,0 +1,16 @@
+{
+  "name": "backroom-signaling",
+  "version": "1.0.0",
+  "description": "WebSocket Signaling Server for Backroom",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.14.0",
+    "uuid": "^9.0.0",
+    "ioredis": "^5.3.0"
+  }
+}
+

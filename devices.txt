@@ -1,0 +1,4 @@
+List of devices attached
+adb-KVYDSGEYXCLBVODE-8J1WVB._adb-tls-connect._tcp device product:pond_global model:2409BRN2CA device:pond transport_id:1
+adb-soy9fa5lbeq8eupj-zQvoIk._adb-tls-connect._tcp device product:earth_global model:22120RN86G device:earth transport_id:6
+

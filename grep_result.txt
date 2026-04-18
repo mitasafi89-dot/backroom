@@ -1,0 +1,3 @@
+280:    fun setVoiceAnonymizationEnabled(enabled: Boolean) {
+289:    fun isVoiceAnonymizationEnabled(): Boolean = voiceAnonymizationEnabled
+303:    fun getAnonymizationLevel(): AnonymizationLevel = currentAnonymizationLevel

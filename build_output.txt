@@ -1,0 +1,99 @@
+
+> Configure project :app
+WARNING: The option 'android.bundle.enableUncompressedNativeLibs' is deprecated.
+The current default is 'true'.
+It was removed in version 8.1 of the Android Gradle plugin.
+
+> Task :app:clean
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :app:generateDebugBuildConfig
+> Task :app:checkDebugAarMetadata
+> Task :app:processDebugNavigationResources
+> Task :app:compileDebugNavigationResources
+> Task :app:generateDebugResValues
+> Task :app:processDebugGoogleServices
+> Task :app:mapDebugSourceSetPaths
+> Task :app:generateDebugResources
+> Task :app:packageDebugResources
+> Task :app:parseDebugLocalResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksDebug
+> Task :app:mergeDebugResources
+> Task :app:processDebugMainManifest
+> Task :app:processDebugManifest
+> Task :app:processDebugManifestForPackage
+> Task :app:javaPreCompileDebug
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:compressDebugAssets
+> Task :app:desugarDebugFileDependencies
+> Task :app:mergeDebugJniLibFolders
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeLibDexDebug
+> Task :app:mergeDebugNativeLibs
+
+> Task :app:stripDebugDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libjingle_peerconnection_so.so. Run with --info option to learn more.
+
+> Task :app:processDebugResources
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceAnonymizer.kt:36:7 Redeclaration:
+class VoiceAnonymizer : Any
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:419:7 Redeclaration:
+class VoiceAnonymizer : Any
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:432:9 Function invocation 'isEnabled()' expected.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:432:9 Variable expected.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:433:9 Unresolved reference 'processor'.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:434:15 Unresolved reference 'TAG'.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:437:32 Function invocation 'isEnabled()' expected.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:440:9 Unresolved reference 'processor'.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:444:20 Function invocation 'isEnabled()' expected.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:445:13 Unresolved reference 'processor'.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:452:9 Unresolved reference 'processor'.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/audio/VoiceMaskingProcessor.kt:453:15 Unresolved reference 'TAG'.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/network/CallManager.kt:824:29 Overload resolution ambiguity between candidates:
+fun setVoiceAnonymizationEnabled(enabled: Boolean): Unit
+fun setVoiceAnonymizationEnabled(enabled: Boolean): Unit
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:280:5 Conflicting overloads:
+fun setVoiceAnonymizationEnabled(enabled: Boolean): Unit
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:289:5 Conflicting overloads:
+fun isVoiceAnonymizationEnabled(): Boolean
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:303:5 Conflicting overloads:
+fun getAnonymizationLevel(): Float
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:1105:5 Conflicting overloads:
+fun setVoiceAnonymizationEnabled(enabled: Boolean): Unit
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:1111:5 Conflicting overloads:
+fun isVoiceAnonymizationEnabled(): Boolean
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:1118:9 Unresolved reference 'anonymizationLevel'.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:1119:87 Unresolved reference 'anonymizationLevel'.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:1120:43 Unresolved reference 'anonymizationLevel'.
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:1123:5 Conflicting overloads:
+fun getAnonymizationLevel(): AnonymizationLevel
+e: file:///C:/Users/LENOVO/AndroidStudioProjects/Backroom/app/src/main/java/com/example/backroom/data/webrtc/WebRTCManager.kt:1123:42 Unresolved reference 'anonymizationLevel'.
+
+> Task :app:mergeExtDexDebug
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 35s
+33 actionable tasks: 33 executed
