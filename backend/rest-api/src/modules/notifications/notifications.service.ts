@@ -52,7 +52,15 @@ export class NotificationsService implements OnModuleInit {
       }
 
       // Initialize with service account
-      const serviceAccount = require(path.resolve(serviceAccountPath));
+      const fs = require('fs');
+      const resolvedPath = path.resolve(serviceAccountPath);
+
+      if (!fs.existsSync(resolvedPath)) {
+        this.logger.warn(`Firebase service account file not found at ${resolvedPath}, skipping initialization`);
+        return;
+      }
+
+      const serviceAccount = require(resolvedPath);
 
       admin.initializeApp({
         credential: admin.credential.cert(serviceAccount),
