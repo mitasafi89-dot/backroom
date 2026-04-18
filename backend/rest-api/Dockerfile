@@ -3,11 +3,11 @@ FROM node:20-alpine
 WORKDIR /app
 
 # Install dependencies
-COPY package*.json ./
+COPY backend/rest-api/package*.json ./
 RUN npm ci --only=production
 
 # Copy source
-COPY . .
+COPY backend/rest-api/ .
 
 # Build if needed (for TypeScript)
 RUN npm run build 2>/dev/null || true
